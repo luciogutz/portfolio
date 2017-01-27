@@ -6,11 +6,21 @@
   transition: 0.6s;
 }
 
+.article {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid black 1px;
+  margin-bottom: 2%;
+}
+
 .seeMore {
+  display: block;
   width: 30%;
-  margin-left: 34.6%;
+  margin-left: auto;
+  margin-right: auto;
   height: 30px;
-  margin-top: 0;
+  margin-top: 2%;
   margin-bottom: 10%;
   border-radius: 5px;
   background-color: black;
@@ -20,7 +30,7 @@
 
 .hidden {
   overflow: hidden;
-  height: 50px;
+  height: 52px;
 }
 
 .blog-Title {
@@ -157,17 +167,17 @@
   display: inline-block;
   width: 60%;
   font-size: 18px;
-  margin-left: 20.5%;
+  margin-left: 19%;
   margin-bottom: 1%;
 }
 
-.projects-Title {
+.projects__page--Title {
   font-family: Impact, Charcoal, sans-serif;
   text-align: center;
   font-size: 40px;
 }
 
-.project-Link {
+.project-Title {
   color: blue;
   text-align: center;
   display: block;
@@ -175,8 +185,10 @@
 }
 
 .preview-Image {
-  height: 500px;
-  margin-left: 23%;
+  display: block;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 3%;
   transition: height 2s;
 }
@@ -184,7 +196,7 @@
 .preview-Clicked-Text {
   height: 40px;
   margin-bottom: 1%;
-  color: blue;
+  color: #4CAF50;
   margin-top: 0;
   text-align: center;
   font-size: 24px;

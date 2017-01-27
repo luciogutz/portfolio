@@ -2,15 +2,49 @@ import React from 'react'
 import { Link } from 'react-router'
 
 export default React.createClass({
-
+  getDefaultProps() {
+    return {
+      blogs: [
+        {
+          blogTitle: "Responsive Web-Design, my first crack at it.",
+          blogLink: "https://medium.com/@lucius956/responsive-web-design-my-first-crack-at-it-b2b4d79b71bc#.podexi26m"
+        },
+        {
+          blogTitle: "",
+          blogLink: ""
+        },
+        {
+          blogTitle: "",
+          blogLink: ""
+        },
+        {
+          blogTitle: "",
+          blogLink: ""
+        },
+        {
+          blogTitle: "",
+          blogLink: ""
+        }
+      ]
+    }
+  },
   render(){
     return(
       <section>
         <h2 className="blog-Title"> Blog Posts </h2>
-          <a className="blog-Posts" href="https://medium.com/@lucius956/learning-code-or-learning-how-to-fail-695fe004492d#.r3inyhasq" target="_blank"> Learning Code? Or Learning How to Fail </a>
-          <a className="blog-Posts" href="https://medium.com/@lucius956/group-project-the-iron-yard-client-week-4420dd8b2f6f#.gqb5ffr6l" target="_blank"> Group Project: The Iron Yard — Client Week </a>
-          <p className="blog-Medium">Checkout more post on <a className="blog-Posts" href="https://medium.com/@lucius956/" target="_blank"> Medium </a></p>
+         {
+            this.props.blogs.map((blog, i)=>
+            {
+          return (
+            <div key={i}>
+              <article>
+              <a className="blog-Posts" href={ blog.blogLink } target="_blank"> { blog.blogTitle } </a>
+              </article>
+            </div>
+          )
+        })
+       }
       </section>
     )
-  }
-})
+   }
+ })
