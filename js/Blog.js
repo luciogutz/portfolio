@@ -85,7 +85,10 @@ export default React.createClass({
   },
   render(){
     return(
-      <section>
+    <div>
+      <a href="https://medium.com/@lucius956" target="_blank"><img alt="blog on Medium" className="mediumButton" src="https://www.shareicon.net/download/2015/10/02/110820_blog.ico" alt="text" /></a>
+      <a href="https://github.com/luciogutz?tab=repositories" target="_blank"><img alt="text" className="gitHubButton" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png" /></a>
+      <section className="blogWrapper">
         <h2 className="blog-Title"> Blog Posts </h2>
          {
             this.props.blogs.map((blog, i)=>
@@ -100,6 +103,7 @@ export default React.createClass({
         })
        }
       </section>
+    </div>
     )
    }
  })

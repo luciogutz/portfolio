@@ -32,8 +32,9 @@ export default React.createClass({
   },
   render(){
     return(
-      <section>
+      <section className="project__Section">
         <h2 className="projects__page--Title"> Projects </h2>
+        <div className="project__Container">
           {
             this.props.projects.map((project, i)=>
             {
@@ -43,12 +44,15 @@ export default React.createClass({
                   <a className="project-Link project-Title" href={ project.gitHub } > { project.title } </a>
                   <p className="projects-Description"> { project.text } </p>
                   <p className="preview-Clicked-Text"> { project.imgText } </p>
-                  <img className="preview-Image" src={ project.imageUrl } />
+                  <div className="text-center">
+                    <img className="preview-Image" src={ project.imageUrl } />
+                  </div>
                 </article>
               </div>
               )
             })
           }
+        </div>
       </section>
 
     )
