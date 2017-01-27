@@ -30,16 +30,6 @@ export default React.createClass({
      ]
     }
   },
-  onClickSubmit() {
-    if(this.refs.projectOne.className === "hidden")
-    {
-      this.refs.projectOne.className = "accordion"
-      this.refs.closeButton.innerHTML = "Close"
-    }else{
-      this.refs.projectOne.className = "hidden"
-      this.refs.closeButton.innerHTML = "Show More"
-    }
-  },
   render(){
     return(
       <section>
