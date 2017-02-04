@@ -267,3 +267,89 @@ body {
 .text-center {
   text-align: center;
 }
+
+/*Resume Styling*/
+
+.css {
+  color: rgb(2, 112, 187);
+  font-size: 20px;
+}
+
+.html {
+  color: rgb(229, 77, 38);
+  font-size: 20px
+}
+
+.jQuery {
+  color: rgb(7, 105, 173);
+  font-size: 20px;
+}
+
+.React {
+  color: rgb(74, 213, 255);
+  font-size: 20px;
+}
+
+.jest {
+  color: rgb(197, 60, 20);
+  font-size: 20px;
+}
+
+.javascript {
+  color: rgb(251, 214, 3);
+  font-size: 20px;
+}
+
+.jobTitle {
+  color: white;
+  font-size: 16px;
+}
+
+.githubImage {
+  height: 35px;
+}
+
+.github {
+  font-size: 20px;
+  color: white;
+}
+
+.myName {
+  color: white;
+  font-size: 54px;
+  text-align: center;
+  margin: 1% auto 1% auto;
+}
+
+.profileImage {
+  height: 200px;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.subTitles {
+  color: white;
+  font-size: 32;
+}
+
+.sideSectionProfile {
+  background-color: #37474F;
+  margin-left: 10%;
+  text-align: center;
+  width: 25%;
+  height: auto;
+  padding: 8px;
+  border-bottom: solid white 3px;
+}
+
+.sideSectionProfileSkills {
+  padding: 8px;
+  margin-top: 0px;
+  background-color: #37474F;
+  margin-left: 10%;
+  text-align: center;
+  width: 25%;
+  height: auto;
+}

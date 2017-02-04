@@ -10,8 +10,9 @@ export default React.createClass ({
         </section>
         <nav className="nav__div--Buttons">
           <Link className="nav-Buttons nav-Home" to="/"> Home </Link>
-          <Link className="nav-Buttons" to="/Blog"> My Blog </Link>
-          <Link className="nav-Buttons" to="/Projects"> My Projects </Link>
+          <Link className="nav-Buttons" to="/Blog"> Blog </Link>
+          <Link className="nav-Buttons" to="/Projects"> Projects </Link>
+          <Link className="nav-Buttons" to="/Resume"> Resume </Link>
         </nav>
       </header>
     )

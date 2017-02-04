@@ -6,6 +6,7 @@ import Blog from './Blog'
 import Projects from './Projects'
 import Portfolio from './Portfolio'
 import Preview from './Preview'
+import Resume from './Resume'
 
 render(
   (
@@ -15,6 +16,7 @@ render(
         <Route path="/blog" component={ Blog } />
         <Route path="/Projects" component={ Projects } />
       </Route>
+      <Route path="/Resume" component={ Resume } />
     </Router>
   ),
   document.getElementById('app')
