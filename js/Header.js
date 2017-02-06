@@ -12,7 +12,6 @@ export default React.createClass ({
           <Link className="nav-Buttons nav-Home" to="/"> Home </Link>
           <Link className="nav-Buttons" to="/Blog"> Blog </Link>
           <Link className="nav-Buttons" to="/Projects"> Projects </Link>
-          <Link className="nav-Buttons" to="/Resume"> Resume </Link>
         </nav>
       </header>
     )
