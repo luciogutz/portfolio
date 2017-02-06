@@ -300,6 +300,15 @@ body {
   font-size: 20px;
 }
 
+.contactInfo {
+  text-align: center;
+}
+
+.contactInfoDetails {
+  margin: 2%;
+  color: #CFD8DC;
+}
+
 .jobTitle {
   color: white;
   font-size: 16px;
@@ -309,9 +318,18 @@ body {
   height: 35px;
 }
 
-.github {
+.otherSkills {
   font-size: 20px;
-  color: white;
+  color: #CFD8DC;
+}
+
+.leftFloat {
+  float: left;
+  width: 30%;
+}
+
+.bash {
+  font-size: 20px;
 }
 
 .myName {
@@ -336,20 +354,54 @@ body {
 
 .sideSectionProfile {
   background-color: #37474F;
-  margin-left: 10%;
   text-align: center;
-  width: 25%;
+  width: 100%;
   height: auto;
   padding: 8px;
   border-bottom: solid white 3px;
 }
 
 .sideSectionProfileSkills {
+  border-bottom: solid white 3px;
   padding: 8px;
   margin-top: 0px;
   background-color: #37474F;
-  margin-left: 10%;
   text-align: center;
-  width: 25%;
+  width: 100%;
   height: auto;
+}
+
+span {
+  color: white;
+}
+
+.wrapper {
+  height: 1266px;
+  width: 80%;
+  border: solid black 1px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mainSubTitles {
+  display: inline-block;
+  font-size: 32px;
+  margin-left: 5%;
+  font-family: helvetica;
+}
+
+.listContainer {
+  margin-left: 36%;
+  list-style-type: circle;
+
+}
+
+.description {
+  padding: 8px;
+  line-height: 24px;
+}
+
+.experience__SubTitle {
+  font-size: 24px;
+  font-style: bold;
 }
