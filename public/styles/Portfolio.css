@@ -272,32 +272,43 @@ body {
 
 .css {
   color: rgb(2, 112, 187);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .html {
   color: rgb(229, 77, 38);
-  font-size: 20px
+  font-size: 24px
 }
 
 .jQuery {
   color: rgb(7, 105, 173);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .React {
   color: rgb(74, 213, 255);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .jest {
   color: rgb(197, 60, 20);
-  font-size: 20px;
+  font-size: 24px;
+  margin-bottom: 1.9%;
+}
+
+.objective {
+  text-align: left;
+  margin-left: 40%;
+  line-height: 24px;
+  font-size: 14px;
+  padding: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .javascript {
   color: rgb(251, 214, 3);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .contactInfo {
@@ -314,18 +325,17 @@ body {
   font-size: 16px;
 }
 
-.githubImage {
-  height: 35px;
-}
-
 .otherSkills {
   font-size: 20px;
   color: #CFD8DC;
+  margin-bottom: 0;
+  margin-top: 5%;
 }
 
 .leftFloat {
   float: left;
   width: 30%;
+  height: 1267px;
 }
 
 .bash {
@@ -350,6 +360,7 @@ body {
 .subTitles {
   color: white;
   font-size: 32;
+  margin-top: 2%;
 }
 
 .sideSectionProfile {
@@ -376,7 +387,7 @@ span {
 }
 
 .wrapper {
-  height: 1266px;
+  height: 1267px;
   width: 80%;
   border: solid black 1px;
   margin-right: auto;
@@ -386,22 +397,70 @@ span {
 .mainSubTitles {
   display: inline-block;
   font-size: 32px;
-  margin-left: 5%;
+  margin-left: 4%;
   font-family: helvetica;
+  margin-bottom: 1px;
+  margin-top: 0;
+}
+
+.mainSection {
+  padding: 16px;
 }
 
 .listContainer {
   margin-left: 36%;
   list-style-type: circle;
+}
 
+.listContainer_education {
+  margin-left: 36%;
+  list-style-type: circle;
 }
 
 .description {
-  padding: 8px;
+  padding: 16px;
   line-height: 24px;
+  font-size: 14px;
+  margin: 0;
 }
 
 .experience__SubTitle {
-  font-size: 24px;
+  font-size: 20px;
   font-style: bold;
+  margin-bottom: 0;
+  margin-top: 2%;
+}
+
+.education {
+  padding: 0;
+}
+
+.education_containers {
+  width: 50%;
+  height: 100px;
+  display: inline-block;
+  margin-right: -26px;
+}
+
+.reference_one {
+  width: 20%;
+  display: inline-block;
+  margin-left: 8%;
+}
+
+.reference_two {
+  width: 20%;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.reference_details {
+  margin: 1%;
+}
+
+.portfolio {
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 12%;
+  margin-top: 6%;
 }
