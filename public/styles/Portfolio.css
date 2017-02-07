@@ -392,6 +392,8 @@ span {
   border: solid black 1px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .mainSubTitles {
