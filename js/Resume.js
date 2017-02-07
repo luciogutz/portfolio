@@ -54,7 +54,7 @@ export default React.createClass({
             <li className="experience__SubTitle"> Lobo Communications - Oct 2015 - present </li>
               <p className="description"> Currently employed as a private contractor for Time Warner/Spectrum Communications. I was responsible for  working with time warner customers with both initial setup and or repair of  cable  connections.  Kept a detailed account of all work and submitted reports in a timely manner. This job allowed me to exercise my problem solving skills due to the variety of situations that the job entailed.  </p>
             <li className="experience__SubTitle"> Music Director/Educator - Fall 2008 - Spring 2015 </li>
-              <p className="description"> Spent 7 years as a band director with two school districts assisting in my first 3 years, then running my own department the last 4. Managed daily curriculum and staff, as well as ensured the success of the program and its members through continuous professional development. My students performed at a high level. I expected nothing less then what I was not willing to give myself. </p>
+              <p className="description"> Spent 7 years as a band director with two school districts, PSJA ISD, and Sharyland ISD. I assisted in my first 3 years, then ran my own department during my last 4. While head director, I Managed daily curriculum and staff, as well as ensured the success of the program and its members through continuous professional development. My students performed at a high level. I expected nothing less then what I was not willing to do myself. </p>
           </ul>
           <h2 className="mainSubTitles"> Education </h2>
             <ul className="listContainer_education">
