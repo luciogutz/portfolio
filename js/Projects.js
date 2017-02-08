@@ -29,7 +29,7 @@ export default React.createClass({
        },
        {
          title: "Credit Card Validator",
-         text: "One of our assignments for week 7 was to create a program that validated a credit card as being valid. Sorry for the redundancy. Ok so what I had to do was pretty straight forward. I used the validator library and its functions to 'check' whether or not an number typed into an input was a valid credit card number. My design was simple, inputs would remain red until a valid credit card number was typed in. If it was not a valid number a pop up would open informing the user of the error. If the number was correct, inputs turn green and a message appears confirming the card number. Like I said pretty straight forward. Check out the code on github.",
+         text: "One of our assignments for week 7 was to create a program that validated a credit card as being valid. Sorry for the redundancy. Ok so what I had to do was pretty straight forward. I used the validator library and its functions to 'check' whether or not an number typed into an input was a valid credit card number. My design was simple, inputs would remain red until a valid credit card number was typed in. If it was not a valid number a pop up would open informing the user of the error. If the number was correct, inputs turn green and a message appears confirming the card number. Like I said pretty straight forward. Check out the code and other photos on github.",
          gitHub: "https://github.com/luciogutz/assignments/tree/master/7.3-CC-Validation",
          imgText: "Valid Card Rendering",
          imageUrl: "https://files.slack.com/files-tmb/T37E93AFL-F435BMU2K-f8c0e6c0c2/screen_shot_2017-02-07_at_11.13.23_pm_720.png"
