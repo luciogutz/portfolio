@@ -54,6 +54,7 @@ body {
   display: inline-block;
   position: fixed;
   margin-top: 2%;
+  margin-left: 4%;
 }
 
 .gitHubButton {
@@ -64,6 +65,7 @@ body {
   display: inline-block;
   position: fixed;
   margin-top: 150px;
+  margin-left: 4%;
 }
 
 .blog-Title {
@@ -87,6 +89,7 @@ body {
   padding: 6px;
   background-color: rgb(207, 216, 220);
   width: 50%;
+  margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
   /*border: solid grey 1px;*/
@@ -103,12 +106,12 @@ body {
 }
 
 .email {
+  font-size: 24px;
   color: white;
   margin-top: 3%;
 }
 
 .footer {
-  position: absolute;
   bottom: 0;
   height: 100px;
   margin-bottom: 0;
@@ -116,6 +119,7 @@ body {
   border-top: solid blue 2px;
   border-bottom: solid blue 2px;
   background-image: url("http://kingofwallpapers.com/code/code-010.jpg");
+  margin-top: 5%;
 }
 
 .footer-Wrapper {

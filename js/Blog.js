@@ -7,6 +7,14 @@ export default React.createClass({
     return {
       blogs: [
         {
+          blogTitle: "Week 2, Final Project— The Iron Yard",
+          blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-2e749886beb9#.4hr2odlmn"
+        },
+        {
+          blogTitle: "Final Project — The Iron Yard",
+          blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-47784bd60b83#.od27qiydw"
+        },
+        {
           blogTitle: "Responsive Web-Design, my first crack at it.",
           blogLink: "https://medium.com/@lucius956/responsive-web-design-my-first-crack-at-it-b2b4d79b71bc#.podexi26m"
         },
