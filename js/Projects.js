@@ -33,6 +33,14 @@ export default React.createClass({
          gitHub: "https://github.com/luciogutz/assignments/tree/master/7.3-CC-Validation",
          imgText: "Valid Card Rendering",
          imageUrl: "https://files.slack.com/files-tmb/T37E93AFL-F435BMU2K-f8c0e6c0c2/screen_shot_2017-02-07_at_11.13.23_pm_720.png"
+       },
+       {
+         title: "Contact List",
+         text: "Week 7 was params week. Using react-router, we set up our routes and utilized parameters to set up the different properties needed for our contact list. Here is my component called User with the set params.  <Route path=/User/:name/:email/:phone/:location component={ User }/>. With stubbed in data, I was able to utilize the .map() function to loop through the object array and in the render call each of the params in a <Link /> from 'react-router' to create the opened detailed contact view.",
+         gitHub: "https://github.com/luciogutz/assignments/tree/master/7.2-contact",
+         imgText: "Each contact opens to show more details",
+         imageUrl: "https://github.com/luciogutz/portfolio/blob/master/Photos/7.2-Contact-image.png?raw=true",
+         imageUrl2: "https://github.com/luciogutz/portfolio/blob/master/Photos/7.2-contact-image2.png?raw=true"
        }
      ]
     }
@@ -53,6 +61,7 @@ export default React.createClass({
                   <p className="preview-Clicked-Text"> { project.imgText } </p>
                   <div className="text-center">
                     <img className="preview-Image" src={ project.imageUrl } />
+                    <img className="preview-Image" src={project.imageUrl2 } />
                   </div>
                 </article>
               </div>
