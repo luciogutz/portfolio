@@ -6,7 +6,7 @@ export default React.createClass ({
     return (
       <header className="header">
         <section className="header-Title">
-          <h1 className="header-Title"> Lucio's Portfolio </h1>
+          <h1 className="header-Title"> Lucio's Code Report </h1>
         </section>
       </header>
     )

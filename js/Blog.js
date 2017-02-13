@@ -95,7 +95,9 @@ export default React.createClass({
     return(
     <div>
       <section className="blogWrapper">
+        <article className="blog__inside--wrapper">
         <h2 className="blog-Title"> Blog Posts </h2>
+
          {
             this.props.blogs.map((blog, i)=>
             {
@@ -108,6 +110,7 @@ export default React.createClass({
           )
         })
        }
+     </article>
       </section>
     </div>
     )
