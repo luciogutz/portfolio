@@ -81,21 +81,19 @@ export default React.createClass({
       ]
     }
   },
-  onClickSubmit() {
-    if(this.refs.projectOne.className === "hidden")
-    {
-      this.refs.projectOne.className = "accordion"
-      this.refs.closeButton.innerHTML = "Close"
-    }else{
-      this.refs.projectOne.className = "hidden"
-      this.refs.closeButton.innerHTML = "Show More"
-    }
-  },
+  // onClickSubmit() {
+  //   if(this.refs.projectOne.className === "hidden")
+  //   {
+  //     this.refs.projectOne.className = "accordion"
+  //     this.refs.closeButton.innerHTML = "Close"
+  //   }else{
+  //     this.refs.projectOne.className = "hidden"
+  //     this.refs.closeButton.innerHTML = "Show More"
+  //   }
+  // },
   render(){
     return(
     <div>
-      <a href="https://medium.com/@lucius956" target="_blank"><img alt="blog on Medium" className="mediumButton" src="https://www.shareicon.net/download/2015/10/02/110820_blog.ico" alt="text" /></a>
-      <a href="https://github.com/luciogutz?tab=repositories" target="_blank"><img alt="text" className="gitHubButton" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png" /></a>
       <section className="blogWrapper">
         <h2 className="blog-Title"> Blog Posts </h2>
          {
@@ -104,7 +102,7 @@ export default React.createClass({
           return (
             <div key={i}>
               <article>
-              <a className="blog-Posts" href={ blog.blogLink } target="_blank"> { blog.blogTitle } </a>
+              <a className="blog-Posts hvr-glow" href={ blog.blogLink } target="_blank"> { blog.blogTitle } </a>
               </article>
             </div>
           )

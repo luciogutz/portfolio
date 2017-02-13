@@ -7,6 +7,7 @@ import Projects from './Projects'
 import Portfolio from './Portfolio'
 import Preview from './Preview'
 import Resume from './Resume'
+import SideNav from './SideNav'
 
 render(
   (

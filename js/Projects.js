@@ -56,7 +56,7 @@ export default React.createClass({
               return (
               <div key={i}>
                 <article ref="projectOne" className="article">
-                  <a className="project-Link project-Title" href={ project.gitHub } > { project.title } </a>
+                  <a className="project-Title hvr-underline-from-center" href={ project.gitHub } > { project.title } </a>
                   <p className="projects-Description"> { project.text } </p>
                   <p className="preview-Clicked-Text"> { project.imgText } </p>
                   <div className="text-center">

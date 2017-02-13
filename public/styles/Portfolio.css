@@ -6,7 +6,6 @@ body {
   margin: 0;
   min-height: 100vh;
   position: relative;
-  background-color: #ECEFF1;
 }
 
 .accordion {
@@ -46,6 +45,87 @@ body {
   height: 52px;
 }
 
+.hvr-grow {
+  position: absolute;
+  display: inline-block;
+  /*vertical-align: middle;*/
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.homeButton {
+  color: white;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border: solid black 2px;
+  border-radius: 100px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -10%;
+  margin-left: 2%;
+  text-decoration: none;
+  padding-top: 2.5%;
+  font-size: 24px;
+}
+
+.blogButton {
+  color: white;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border: solid black 2px;
+  border-radius: 100px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -1%;
+  margin-left: 2%;
+  text-decoration: none;
+  padding-top: 2.5%;
+  font-size: 24px;
+}
+
+.projectsButton {
+  color: white;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border: solid black 2px;
+  border-radius: 100px;
+  display: inline-block;
+  position: fixed;
+  margin-top: 8%;
+  margin-left: 2%;
+  text-decoration: none;
+  padding-top: 2.5%;
+  font-size: 24px;
+}
+
+.resumeButton {
+  color: white;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border: solid black 2px;
+  border-radius: 100px;
+  display: inline-block;
+  position: fixed;
+  margin-top: 17%;
+  margin-left: 2%;
+  text-decoration: none;
+  padding-top: 2.5%;
+  font-size: 24px;
+}
+
 .mediumButton {
   height: 100px;
   width: 100px;
@@ -53,8 +133,8 @@ body {
   border-radius: 100px;
   display: inline-block;
   position: fixed;
-  margin-top: 2%;
-  margin-left: 4%;
+  margin-top: 26%;
+  margin-left: 2%;
 }
 
 .gitHubButton {
@@ -64,8 +144,8 @@ body {
   border-radius: 100px;
   display: inline-block;
   position: fixed;
-  margin-top: 150px;
-  margin-left: 4%;
+  margin-top: 35%;
+  margin-left: 2%;
 }
 
 .blog-Title {
@@ -130,14 +210,12 @@ body {
 }
 
 .header {
-  background-image: url("http://kingofwallpapers.com/code/code-010.jpg");
-  height: 300px;
-  border-top: solid blue 2px;
-  border-bottom: solid blue 2px;
+  /*background-image: url("http://kingofwallpapers.com/code/code-010.jpg");*/
+  height: 200px;
 }
 
 .header-Title {
-  color: white;
+  color: #212121;
   font-family: Impact, Charcoal, sans-serif;
   margin: 0;
   font-size: 60px;
@@ -151,9 +229,14 @@ body {
   height: 60px;
 }
 
+.sideNav {
+  width: 15%;
+  float: left;
+}
+
 .nav__div--Buttons {
   margin-left: 0;
-  width: 100%;
+  width: 50%;
   text-align: center;
 }
 
@@ -180,38 +263,13 @@ body {
 
 .home-Bio-Wrapper {
   width: 60%;
-  margin-left: 8%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 18px;
   text-align: center;
   margin-bottom: 5%;
-  display: inline-block;
+  display: block;
   margin-top: 3%;
-}
-
-.home-City {
-  display: inline-block;
-  margin-left: 3%;
-  margin-bottom: 1%;
-  margin-top: 0;
-}
-
-.home-Info {
-  display: inline-block;
-  width: 12%;
-  height: 125px;
-  float: left;
-}
-
-.home-Github {
-  display: inline-block;
-  margin-left: 3%;
-}
-
-.home-Name {
-  display: inline-block;
-  margin-top: 8%;
-  margin-left: 3%;
-  margin-bottom: 1%;
 }
 
 .project__Section {
@@ -230,11 +288,12 @@ body {
 .projects__page--Title {
   font-family: Impact, Charcoal, sans-serif;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .project-Title {
   color: blue;
+  text-decoration: none;
   /*text-align: center;*/
   /*display: block;*/
   font-size: 34px;
@@ -469,4 +528,49 @@ span {
   display: inline-block;
   margin-left: 12%;
   margin-top: 6%;
+}
+
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: blue;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
 }
