@@ -8,6 +8,10 @@ body {
   position: relative;
 }
 
+h1 {
+  text-shadow: 3px 5px 10px #607D8B;
+}
+
 .accordion {
   height: auto;
   transition: 0.6s;
@@ -183,18 +187,6 @@ body {
 
 .blog-Medium {
   text-align: center;
-}
-
-.contact {
-  color: white;
-  font-family: Impact, Charcoal, sans-serif;
-  margin-bottom: 3%;
-}
-
-.email {
-  font-size: 24px;
-  color: white;
-  margin-top: 3%;
 }
 
 .footer {

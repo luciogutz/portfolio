@@ -13,6 +13,8 @@ export default React.createClass({
           <a href="https://medium.com/@lucius956" target="_blank"><img alt="blog on Medium" className="mediumButton hvr-grow" src="https://www.shareicon.net/download/2015/10/02/110820_blog.ico" alt="text" /></a>
           <a href="https://github.com/luciogutz?tab=repositories" target="_blank"><img alt="text" className="gitHubButton hvr-grow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png" /></a>
         </nav>
+        <aside>
+        </aside>
       </section>
     )
   }
