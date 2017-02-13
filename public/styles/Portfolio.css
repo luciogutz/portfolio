@@ -64,6 +64,7 @@ h1 {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  color: yellow;
 }
 
 .homeButton {
@@ -221,6 +222,13 @@ h1 {
   width:  100%;
   height: 150px;
   text-align: center;
+}
+
+.webDeveloper {
+  color: #B71C1C;
+  font-size: 22px;
+  margin-left: 52%;
+  margin-top: -10px;
 }
 
 .nav {
@@ -571,4 +579,8 @@ span {
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
+}
+
+@media only screen and (min-width: em) {
+
 }

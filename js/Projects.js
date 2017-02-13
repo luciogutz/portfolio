@@ -11,7 +11,7 @@ export default React.createClass({
          text: "So during The Iron Yard Cohort we were given numorous assignments. Each assignments had some kind of design element to it and I can say that im proud of what I was able to design. However, there was something that always bothered me about my designs. When viewed in different size browsers, my elements would start to jumble up and move everwhere I didnt want them to move. Well this project/assignment was learning how to use media queries to create a responsive web page. I go into much more detail in my blog so check that out.",
          gitHub: "https://github.com/luciogutz/assignments/tree/master/8.3-responsive/comps",
          imgText: "Just and example of what responsive web-design looks like on different devices.",
-         imageUrl: "https://www.thinsquare.com/blog/wp-content/uploads/2016/02/Responsive-Web-Design.png"
+         imageUrl: "https://accesseducationchina.com/wp-content/uploads/2015/07/boise-responsive-design.png"
        },
        {
          title: "Chat App",
