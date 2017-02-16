@@ -70,7 +70,7 @@ export default React.createClass({
               <p className="description education"> Graduated May 11, 2008 </p>
           </div>
           </ul>
-          <article>
+          <article className="portfolioWrapper">
             <p className="portfolio">  PORTFOLIO: https://lucio-portfolio.herokuapp.com </p>
             <p className="referencesNote"> * References upon request * </p>
           </article>

@@ -410,7 +410,7 @@ h1 {
 .leftFloat {
   float: left;
   width: 30%;
-  height: 800px;
+  height: 100%;
 }
 
 .bash {
@@ -539,11 +539,15 @@ span {
   margin: 1%;
 }
 
+.portfolioWrapper {
+  margin-top: 30px;
+}
+
 
 .portfolio {
   font-style: bold;
   font-size: 18px;
-  display: inline-block;
+  /*display: inline-block;*/
   margin-left: 38%;
   margin-top: -1%;
   margin-bottom: 1%;
@@ -552,7 +556,7 @@ span {
 .referencesNote {
   font-style: bold;
   font-size: 18px;
-  display: inline-block;
+  /*display: inline-block;*/
   margin-left: 50%;
   margin-top: -1%;
 }
