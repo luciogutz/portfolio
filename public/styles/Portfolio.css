@@ -227,7 +227,7 @@ h1 {
 .webDeveloper {
   color: #B71C1C;
   font-size: 22px;
-  margin-left: 52%;
+  margin-left: 50%;
   margin-top: -10px;
 }
 
@@ -341,35 +341,40 @@ h1 {
 
 .css {
   color: rgb(2, 112, 187);
-  font-size: 24px;
+  font-size: 16px;
+  margin: 2%;
 }
 
 .html {
   color: rgb(229, 77, 38);
-  font-size: 24px
+  font-size: 16px;
+  margin: 2%;
 }
 
 .jQuery {
   color: rgb(7, 105, 173);
-  font-size: 24px;
+  font-size: 16px;
+  margin: 2%;
 }
 
 .React {
   color: rgb(74, 213, 255);
-  font-size: 24px;
+  font-size: 16px;
+  margin: 2%;
 }
 
 .jest {
   color: rgb(197, 60, 20);
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 1.9%;
+  margin-top: 2%;
 }
 
 .objective {
   text-align: left;
-  margin-left: 40%;
-  line-height: 24px;
-  font-size: 14px;
+  margin-left: 35%;
+  line-height: 20px;
+  font-size: 12px;
   padding: 16px;
   margin-bottom: 0;
   margin-top: 0;
@@ -377,7 +382,8 @@ h1 {
 
 .javascript {
   color: rgb(251, 214, 3);
-  font-size: 24px;
+  font-size: 16px;
+  margin: 2%;
 }
 
 .contactInfo {
@@ -391,20 +397,20 @@ h1 {
 
 .jobTitle {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .otherSkills {
-  font-size: 20px;
+  font-size: 18px;
   color: #CFD8DC;
   margin-bottom: 0;
-  margin-top: 5%;
+  margin-top: 2.9%;
 }
 
 .leftFloat {
   float: left;
   width: 30%;
-  height: 1267px;
+  height: 800px;
 }
 
 .bash {
@@ -413,23 +419,24 @@ h1 {
 
 .myName {
   color: white;
-  font-size: 54px;
+  font-size: 32px;
   text-align: center;
   margin: 1% auto 1% auto;
 }
 
 .profileImage {
-  height: 200px;
+  height: 150px;
   border-radius: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .subTitles {
   color: white;
   font-size: 32;
   margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 .sideSectionProfile {
@@ -437,13 +444,13 @@ h1 {
   text-align: center;
   width: 100%;
   height: auto;
-  padding: 8px;
+  padding: 4px;
   border-bottom: solid white 3px;
 }
 
 .sideSectionProfileSkills {
   border-bottom: solid white 3px;
-  padding: 8px;
+  padding: 3px;
   margin-top: 0px;
   background-color: #37474F;
   text-align: center;
@@ -456,8 +463,8 @@ span {
 }
 
 .wrapper {
-  height: 1267px;
-  width: 80%;
+  height: 863px;
+  width: 700px;
   border: solid black 1px;
   margin-right: auto;
   margin-left: auto;
@@ -467,7 +474,7 @@ span {
 
 .mainSubTitles {
   display: inline-block;
-  font-size: 32px;
+  font-size: 22px;
   margin-left: 4%;
   font-family: helvetica;
   margin-bottom: 1px;
@@ -484,22 +491,25 @@ span {
 }
 
 .listContainer_education {
-  margin-left: 36%;
+  margin-left: 34%;
   list-style-type: circle;
+  margin-top: 1%;
 }
 
 .description {
-  padding: 16px;
-  line-height: 24px;
-  font-size: 14px;
+  padding: 5px;
+  line-height: 20px;
+  font-size: 12px;
   margin: 0;
+  margin-left: -8%;
 }
 
 .experience__SubTitle {
-  font-size: 20px;
+  font-size: 16px;
   font-style: bold;
   margin-bottom: 0;
   margin-top: 2%;
+  margin-left: -10%;
 }
 
 .education {
@@ -507,10 +517,10 @@ span {
 }
 
 .education_containers {
-  width: 50%;
-  height: 100px;
+  width: 56%;
+  height: 50px;
   display: inline-block;
-  margin-right: -26px;
+  margin-right: -36px;
 }
 
 .reference_one {
@@ -529,11 +539,22 @@ span {
   margin: 1%;
 }
 
+
 .portfolio {
-  font-size: 24px;
+  font-style: bold;
+  font-size: 18px;
   display: inline-block;
-  margin-left: 12%;
-  margin-top: 6%;
+  margin-left: 38%;
+  margin-top: -1%;
+  margin-bottom: 1%;
+}
+
+.referencesNote {
+  font-style: bold;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: -1%;
 }
 
 .hvr-glow {

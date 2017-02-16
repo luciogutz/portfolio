@@ -26,7 +26,8 @@ export default React.createClass({
           <article className="sideSectionProfileSkills">
             <h3 className="subTitles"><i className="fa fa-thumbs-o-up" aria-hidden="true"></i> Other Skills <i className="fa fa-thumbs-o-up" aria-hidden="true"></i> </h3>
             <p className="otherSkills"> Github </p>
-            <p className="otherSkills">  Bash </p>
+            <p className="otherSkills"> Firebase </p>
+            <p className="otherSkills"> Bash </p>
             <p className="otherSkills"> Travis CI </p>
             <p className="otherSkills"> Photoshop </p>
             <p className="otherSkills"> Photography </p>
@@ -69,30 +70,9 @@ export default React.createClass({
               <p className="description education"> Graduated May 11, 2008 </p>
           </div>
           </ul>
-          <h2 className="mainSubTitles"> References </h2>
           <article>
-            <div className="reference_one">
-              <p className="experience__SubTitle"> James Reyes </p>
-              <p className="reference_details"> Field Operations Supervisor </p>
-              <p className="reference_details">  Lobo Communications </p>
-              <p className="reference_details"> phone: 555-555-5555 </p>
-              <p className="reference_details">  Email: yadayada@lobotelecom.net</p>
-            </div>
-            <div className="reference_two">
-              <p className="experience__SubTitle"> Jason Vanderslice </p>
-              <p className="reference_details"> I dont know his current title </p>
-              <p className="reference_details">  I dont know the company yet </p>
-              <p className="reference_details"> phone: 555-555-5555 </p>
-              <p className="reference_details">  Email: codingstuff@somthing.com</p>
-            </div>
-            <div className="reference_two">
-              <p className="experience__SubTitle"> Another Person </p>
-              <p className="reference_details"> I dont know his current title </p>
-              <p className="reference_details">  I dont know the company yet </p>
-              <p className="reference_details"> phone: 555-555-5555 </p>
-              <p className="reference_details">  Email: codingstuff@something.com</p>
-            </div>
-            <p className="portfolio">  PORTFOLIO: https:lucio-portfolio.herokuapp.com </p>
+            <p className="portfolio">  PORTFOLIO: https://lucio-portfolio.herokuapp.com </p>
+            <p className="referencesNote"> * References upon request * </p>
           </article>
         </section>
       </section>
