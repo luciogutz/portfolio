@@ -7,6 +7,16 @@ export default React.createClass({
     return {
       projects: [
         {
+         title: "",
+         noLinkTitle: "The Iron Yard Final Project-cAPPsul",
+         text: "The Iron Yard Final Project. I am currently partnered with a local entrepreneur who very recently launched his own startup called RecChanges. Long story short, told him I was studying at the Iron Yard and he gave me the opportunity to bring to life one of his ideas for an app. The goal is to carry this app beyond my time at the Iron Yard, as such I can't talk much about it. Currently the project is being developed as a web app in preparation for demo day Feb. 24th. However, very soon after will be transitioned to a mobile platform. I'm eager to get started with that phase of development. In the meantime Checkout RecChanges",
+         gitHub: "",
+         specialLinktitle: "www.recchanges.com",
+         specialLink: "http://www.recchanges.com/",
+         imgText: "Screen shot of final project SignIn page",
+         imageUrl: "https://github.com/luciogutz/capsule/blob/master/photos/Screen%20Shot%202017-02-19%20at%203.52.47%20PM.png?raw=true"
+       },
+        {
          title: "Responsive Web-Design",
          text: "So during The Iron Yard Cohort we were given numorous assignments. Each assignments had some kind of design element to it and I can say that im proud of what I was able to design. However, there was something that always bothered me about my designs. When viewed in different size browsers, my elements would start to jumble up and move everwhere I didnt want them to move. Well this project/assignment was learning how to use media queries to create a responsive web page. I go into much more detail in my blog so check that out.",
          gitHub: "https://github.com/luciogutz/assignments/tree/master/8.3-responsive/comps",
@@ -23,8 +33,8 @@ export default React.createClass({
        {
          title: "Client Week Project - Spurs Blog",
          text: "Ok so this past week we were broken up into 2 groups of 4 people. Our assignment was to create a blog site called All about the Spurs. Basically it was a site that allowed users to create a blog post about anything having to do with our local NBA team the Spurs. It went well. If your interested in the code used to create what we did click the title link above. I would love to here feed back about anything that we could have done better so feel free to send me an email.",
-         gitHub: "https://github.com/luciogutz/client-week-project",
-         imgText: "We went with the vintage logo.",
+         gitHub: "https://spurs-nation.herokuapp.com/",
+         imgText: "Click the link to see it on heroku",
          imageUrl: "https://s-media-cache-ak0.pinimg.com/originals/f4/fd/be/f4fdbeed1a5a706fe225a5c4a02042ce.jpg"
        },
        {
@@ -32,7 +42,8 @@ export default React.createClass({
          text: "One of our assignments for week 7 was to create a program that validated a credit card as being valid. Sorry for the redundancy. Ok so what I had to do was pretty straight forward. I used the validator library and its functions to 'check' whether or not an number typed into an input was a valid credit card number. My design was simple, inputs would remain red until a valid credit card number was typed in. If it was not a valid number a pop up would open informing the user of the error. If the number was correct, inputs turn green and a message appears confirming the card number. Like I said pretty straight forward. Check out the code and other photos on github.",
          gitHub: "https://github.com/luciogutz/assignments/tree/master/7.3-CC-Validation",
          imgText: "Valid Card Rendering",
-         imageUrl: "https://files.slack.com/files-tmb/T37E93AFL-F435BMU2K-f8c0e6c0c2/screen_shot_2017-02-07_at_11.13.23_pm_720.png"
+         imageUrl: "https://github.com/luciogutz/assignments/blob/master/7.3-CC-Validation/Photos/Screen%20Shot%202017-02-19%20at%204.15.16%20PM.png?raw=true",
+         imageUrl2: "https://github.com/luciogutz/assignments/blob/master/7.3-CC-Validation/Photos/Screen%20Shot%202017-02-19%20at%204.13.42%20PM.png?raw=true"
        },
        {
          title: "Contact List",
@@ -44,11 +55,19 @@ export default React.createClass({
        },
        {
          title: "FaceBook-NewsFeed",
-         text: "Simple assignment, take the newfreed from Facebook and get as close to the real thing using css.",
+         text: "Simple assignment, take the newsfeed from Facebook and get as close to the real thing using CSS. Another part of this assignment was to incorporate jest as a test for our assignment. The idea was not to have the test pass, but to have a test written up to see how it worked with our code.  I was introduced to jasmine first, but in my opinion, jest makes more sense. It reads like a story and you have a lot of freedom in the way you want to approach it.",
          gitHub: "https://github.com/luciogutz/assignments/tree/master/5.4-facebook",
          imgText: "",
          imageUrl: "https://github.com/luciogutz/assignments/blob/master/5.4-facebook/Photos/Screen%20Shot%202017-02-18%20at%209.13.02%20PM.png?raw=true",
          imageUrl2: ""
+       },
+       {
+         title: "Photo-Album-jQuery",
+         text: "Created a photo album with a theme of our choosing using jQuery.  Originally this assignment was given to us a couple of weeks before and was given to us again and were asked to refactor our code.  At the time I didn't finish it, but after continuing with the course, I went back and took another look at it. I found exactly what was wrong with it and corrected it. Turns out I hadn't added a very important data-js property to my images. It was reassuring to me to go back and remember the frustration of that assignment and seeing how now I was able just to pick out what was wrong with it.",
+         gitHub: "https://github.com/luciogutz/assignments/tree/master/4.1-photos-structure",
+         imgText: "Each picture opens up to a modal",
+         imageUrl: "https://github.com/luciogutz/assignments/blob/master/4.1-photos-structure/photos/Screen%20Shot%202017-02-19%20at%202.45.03%20PM.png?raw=true",
+         imageUrl2: "https://github.com/luciogutz/assignments/blob/master/4.1-photos-structure/photos/Screen%20Shot%202017-02-19%20at%202.45.15%20PM.png?raw=true"
        }
      ]
     }
@@ -64,8 +83,10 @@ export default React.createClass({
               return (
               <div key={i}>
                 <article ref="projectOne" className="article">
-                  <a className="project-Title hvr-underline-from-center" href={ project.gitHub } > { project.title } </a>
+                  <h2 className="project-Title">{project.noLinkTitle}  </h2>
+                  <a className="project-Title hvr-underline-from-center" target="_blank" href={ project.gitHub } > { project.title } </a>
                   <p className="projects-Description"> { project.text } </p>
+                  <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a>
                   <p className="preview-Clicked-Text"> { project.imgText } </p>
                   <div className="text-center">
                     <img className="preview-Image" src={ project.imageUrl } />
