@@ -346,31 +346,31 @@ h1 {
 /*Resume Styling*/
 
 .css {
-  color: rgb(2, 112, 187);
+  color: rgb(251, 214, 3);
   font-size: 16px;
   margin: 2%;
 }
 
 .html {
-  color: rgb(229, 77, 38);
+  color: rgb(255, 213, 79);
   font-size: 16px;
   margin: 2%;
 }
 
 .jQuery {
-  color: rgb(7, 105, 173);
+  color: rgb(251, 214, 3);
   font-size: 16px;
   margin: 2%;
 }
 
 .React {
-  color: rgb(74, 213, 255);
+  color: rgb(255, 213, 79);
   font-size: 16px;
   margin: 2%;
 }
 
 .jest {
-  color: rgb(197, 60, 20);
+  color: rgb(255, 213, 79);
   font-size: 16px;
   margin-bottom: 1.9%;
   margin-top: 2%;
@@ -402,8 +402,8 @@ h1 {
 }
 
 .jobTitle {
-  color: white;
-  font-size: 14px;
+  color: rgb(251, 140, 0);
+  font-size: 18px;
 }
 
 .otherSkills {
@@ -469,7 +469,7 @@ span {
 }
 
 .wrapper {
-  height: 863px;
+  height: 876px;
   width: 700px;
   border: solid black 1px;
   margin-right: auto;
