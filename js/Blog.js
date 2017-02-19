@@ -7,6 +7,10 @@ export default React.createClass({
     return {
       blogs: [
         {
+          blogTitle: "Week 3 — The Iron Yard — Final Project",
+          blogLink: "https://medium.com/@lucius956/week-3-the-iron-yard-final-project-ac96196c876b#.aq21ea9cb"
+        },
+        {
           blogTitle: "Week 2, Final Project— The Iron Yard",
           blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-2e749886beb9#.4hr2odlmn"
         },
@@ -81,16 +85,6 @@ export default React.createClass({
       ]
     }
   },
-  // onClickSubmit() {
-  //   if(this.refs.projectOne.className === "hidden")
-  //   {
-  //     this.refs.projectOne.className = "accordion"
-  //     this.refs.closeButton.innerHTML = "Close"
-  //   }else{
-  //     this.refs.projectOne.className = "hidden"
-  //     this.refs.closeButton.innerHTML = "Show More"
-  //   }
-  // },
   render(){
     return(
     <div>

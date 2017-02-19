@@ -41,6 +41,14 @@ export default React.createClass({
          imgText: "Each contact opens to show more details",
          imageUrl: "https://github.com/luciogutz/portfolio/blob/master/Photos/7.2-Contact-image.png?raw=true",
          imageUrl2: "https://github.com/luciogutz/portfolio/blob/master/Photos/7.2-contact-image2.png?raw=true"
+       },
+       {
+         title: "FaceBook-NewsFeed",
+         text: "Simple assignment, take the newfreed from Facebook and get as close to the real thing using css.",
+         gitHub: "https://github.com/luciogutz/assignments/tree/master/5.4-facebook",
+         imgText: "",
+         imageUrl: "https://github.com/luciogutz/assignments/blob/master/5.4-facebook/Photos/Screen%20Shot%202017-02-18%20at%209.13.02%20PM.png?raw=true",
+         imageUrl2: ""
        }
      ]
     }
