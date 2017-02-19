@@ -9,7 +9,7 @@ export default React.createClass({
           <article className="sideSectionProfile">
             <img
               className="profileImage"
-             src="https://avatars3.githubusercontent.com/u/23609224?v=3&s=460"/>
+             src="https://github.com/luciogutz/portfolio/blob/master/Photos/myPhoto.jpg?raw=true"/>
            <h2 className="myName"> Lucio </h2>
            <h2 className="myName"> Gutierrez </h2>
            <h3 className="jobTitle"> Front-End Developer </h3>
