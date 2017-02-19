@@ -22,9 +22,9 @@ h1 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  /*margin-bottom: 2%;*/
+  margin-bottom: 0;
   text-align: center;
-  padding: 2em 0;
+  border-bottom: solid black 1px;
 }
 
 .project__Container {
@@ -285,11 +285,12 @@ h1 {
 
 .projects-Description {
   text-align: center;
-  /*display: inline-block;*/
   width: 60%;
   font-size: 18px;
-  margin-left: 19%;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 1%;
+  display: block;
 }
 
 .projects__page--Title {
@@ -314,7 +315,7 @@ h1 {
 
 .preview-Image {
   /*display: block;*/
-  height: 300px;
+  height: 275px;
   padding: 4px;
 }
 
@@ -339,7 +340,7 @@ h1 {
 
 .text-center {
   text-align: center;
-  height: 400px;
+  height: 325px;
 }
 
 /*Resume Styling*/

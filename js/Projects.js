@@ -42,8 +42,8 @@ export default React.createClass({
          text: "One of our assignments for week 7 was to create a program that validated a credit card as being valid. Sorry for the redundancy. Ok so what I had to do was pretty straight forward. I used the validator library and its functions to 'check' whether or not an number typed into an input was a valid credit card number. My design was simple, inputs would remain red until a valid credit card number was typed in. If it was not a valid number a pop up would open informing the user of the error. If the number was correct, inputs turn green and a message appears confirming the card number. Like I said pretty straight forward. Check out the code and other photos on github.",
          gitHub: "https://github.com/luciogutz/assignments/tree/master/7.3-CC-Validation",
          imgText: "Valid Card Rendering",
-         imageUrl: "https://github.com/luciogutz/assignments/blob/master/7.3-CC-Validation/Photos/Screen%20Shot%202017-02-19%20at%204.15.16%20PM.png?raw=true",
-         imageUrl2: "https://github.com/luciogutz/assignments/blob/master/7.3-CC-Validation/Photos/Screen%20Shot%202017-02-19%20at%204.13.42%20PM.png?raw=true"
+         imageUrl: "https://github.com/luciogutz/assignments/blob/master/7.3-CC-Validation/Photos/Screen%20Shot%202017-02-19%20at%204.46.05%20PM.png?raw=true",
+         imageUrl2: ""
        },
        {
          title: "Contact List",
