@@ -403,7 +403,7 @@ h1 {
 
 .jobTitle {
   color: rgb(251, 140, 0);
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .otherSkills {
@@ -469,7 +469,7 @@ span {
 }
 
 .wrapper {
-  height: 876px;
+  height: 863px;
   width: 700px;
   border: solid black 1px;
   margin-right: auto;
