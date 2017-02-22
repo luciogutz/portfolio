@@ -12,11 +12,6 @@ h1 {
   text-shadow: 3px 5px 10px #607D8B;
 }
 
-.accordion {
-  height: auto;
-  transition: 0.6s;
-}
-
 .article {
   height: auto;
   width: 70%;
@@ -25,29 +20,6 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   border-bottom: solid black 1px;
-}
-
-.project__Container {
-
-}
-
-.seeMore {
-  display: block;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30px;
-  margin-top: 2%;
-  margin-bottom: 10%;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-  font-size: 16px;
-}
-
-.hidden {
-  overflow: hidden;
-  height: 52px;
 }
 
 .hvr-grow {
@@ -68,7 +40,7 @@ h1 {
   color: yellow;
 }
 
-.homeButton {
+/*.homeButton {
   color: white;
   background-color: black;
   height: 100px;
@@ -152,9 +124,9 @@ h1 {
   position: fixed;
   margin-top: 35%;
   margin-left: 2%;
-}
+}*/
 
-.blog-Title {
+/*.blog-Title {
   font-family: Impact, Charcoal, sans-serif;
   text-align: center;
   font-size: 40px;
@@ -170,9 +142,9 @@ h1 {
   margin-right: auto;
   width: 100%;
   margin-bottom: 5%;
-}
+}*/
 
-.blogWrapper {
+/*.blogWrapper {
   padding: 6px;
   background-color: rgb(207, 216, 220);
   width: 50%;
@@ -180,7 +152,6 @@ h1 {
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
-  /*border: solid grey 1px;*/
 }
 
 .blog__inside--wrapper {
@@ -189,25 +160,7 @@ h1 {
 
 .blog-Medium {
   text-align: center;
-}
-
-.footer {
-  bottom: 0;
-  height: 100px;
-  margin-bottom: 0;
-  width: 100%;
-  border-top: solid blue 2px;
-  border-bottom: solid blue 2px;
-  background-image: url("http://kingofwallpapers.com/code/code-010.jpg");
-  margin-top: 5%;
-}
-
-.footer-Wrapper {
-  margin-left: 2%;
-  margin-top: 0;
-  vertical-align: bottom;
-  display: inline-block;
-}
+}*/
 
 .header {
   /*background-image: url("http://kingofwallpapers.com/code/code-010.jpg");*/
@@ -245,23 +198,6 @@ h1 {
   margin-left: 0;
   width: 50%;
   text-align: center;
-}
-
-.nav-Buttons {
-  font-family: bold, charcoal, sans-serif;
-  color: white;
-  display: inline-block;
-  text-align: center;
-  border-right: solid orange 1px;
-  width: 120px;
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 115px;
-}
-
-.nav-Home {
-  border-left: solid orange 1px;
 }
 
 .home-Bio {
@@ -306,16 +242,13 @@ h1 {
   margin-bottom: 0;
 }
 
-.specialProject-Title {
+/*.specialProject-Title {
   color: orange;
   text-decoration: none;
-  /*text-align: center;*/
-  /*display: block;*/
   font-size: 34px;
 }
 
 .preview-Image {
-  /*display: block;*/
   height: 275px;
   padding: 4px;
 }
@@ -327,17 +260,7 @@ h1 {
   margin-top: 0;
   text-align: center;
   font-size: 24px;
-}
-
-.preview-Close-Button {
-  border: none;
-  color: grey;
-  height: 30px;
-  width: 30px;
-  display: block;
-  float: right;
-  margin-right: 24.3%;
-}
+}*/
 
 .text-center {
   text-align: center;
@@ -853,7 +776,7 @@ span {
     margin-left: -3%;
     text-decoration: none;
     padding-top: 4%;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .resumeButton {
@@ -869,7 +792,7 @@ span {
     margin-left: -3%;
     text-decoration: none;
     padding-top: 4%;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .mediumButton {
@@ -1043,6 +966,18 @@ span {
     margin-top: 45%;
     margin-left: -3%;
   }
+
+  .blog-Posts {
+    color: blue;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 10%;
+  }
 }
 
 @media only screen and (min-width: 43em) {
@@ -1098,7 +1033,7 @@ span {
     margin-left: -3%;
     text-decoration: none;
     padding-top: 4%;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .resumeButton {
@@ -1114,7 +1049,7 @@ span {
     margin-left: -3%;
     text-decoration: none;
     padding-top: 4%;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .mediumButton {
@@ -1151,14 +1086,14 @@ span {
 
   .blog-Posts {
     color: blue;
-    font-size: 16px;
+    font-size: 24px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
   }
   .project-Title {
     color: blue;
@@ -1182,11 +1117,11 @@ span {
     color: #4CAF50;
     margin-top: 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
   }
   .preview-Image {
     display: block;
-    height: 200px;
+    height: 250px;
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -1197,8 +1132,340 @@ span {
     text-decoration: none;
     /*text-align: center;*/
     /*display: block;*/
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 3%;
   }
+}
 
+@media only screen and (min-width: 49em) {
+  .homeButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -14%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3.2%;
+    font-size: 20px;
+  }
+
+  .blogButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -4%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3.2%;
+    font-size: 20px;
+  }
+
+  .projectsButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 6%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3.2%;
+    font-size: 18px;
+  }
+
+  .resumeButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 16%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3.2%;
+    font-size: 18px;
+  }
+
+  .mediumButton {
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 26%;
+    margin-left: -3%;
+  }
+
+  .gitHubButton {
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 36%;
+    margin-left: -3%;
+  }
+}
+
+@media only screen and (min-width: 68em) {
+  .homeButton {
+    color: white;
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -14%;
+    margin-left: 0;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 20px;
+  }
+
+  .blogButton {
+    color: white;
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -5%;
+    margin-left: 0;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 20px;
+  }
+
+  .projectsButton {
+    color: white;
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 4%;
+    margin-left: 0;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 18px;
+  }
+
+  .resumeButton {
+    color: white;
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 13%;
+    margin-left: 0;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 18px;
+  }
+
+  .mediumButton {
+    height: 80px;
+    width: 80px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 22%;
+    margin-left: 0;
+  }
+
+  .gitHubButton {
+    height: 80px;
+    width: 80px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 31%;
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (min-width: 71em) {
+  .homeButton {
+    color: white;
+    background-color: black;
+    height: 90px;
+    width: 90px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -15%;
+    margin-left: 2%;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 24px;
+  }
+
+  .blogButton {
+    color: white;
+    background-color: black;
+    height: 90px;
+    width: 90px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -7%;
+    margin-left: 2%;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 24px;
+  }
+
+  .projectsButton {
+    color: white;
+    background-color: black;
+    height: 90px;
+    width: 90px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 2%;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 24px;
+  }
+
+  .resumeButton {
+    color: white;
+    background-color: black;
+    height: 90px;
+    width: 90px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 9%;
+    margin-left: 2%;
+    text-decoration: none;
+    padding-top: 2.5%;
+    font-size: 24px;
+  }
+
+  .mediumButton {
+    height: 90px;
+    width: 90px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 17%;
+    margin-left: 2%;
+  }
+
+  .gitHubButton {
+    height: 90px;
+    width: 90px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 25%;
+    margin-left: 2%;
+  }
+  /* start of putting things in */
+
+  .article {
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: solid black 1px;
+  }
+
+  .blog-Title {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .blog-Posts {
+    color: blue;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .blogWrapper {
+    padding: 6px;
+    background-color: rgb(207, 216, 220);
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: solid grey 1px;*/
+  }
+
+  .blog__inside--wrapper {
+    border: solid white 3px;
+  }
+
+  .blog-Medium {
+    text-align: center;
+  }
+
+  .specialProject-Title {
+    color: orange;
+    text-decoration: none;
+    font-size: 34px;
+  }
+
+  .preview-Image {
+    height: 275px;
+    padding: 4px;
+  }
+
+  .preview-Clicked-Text {
+    height: 40px;
+    margin-bottom: 1%;
+    color: #4CAF50;
+    margin-top: 0;
+    text-align: center;
+    font-size: 24px;
+  }
 }
