@@ -7,6 +7,11 @@ export default React.createClass({
     return {
       blogs: [
         {
+          blogTitle: "The Finish Line — The Iron Yard",
+          blogLink: "https://medium.com/@lucius956/the-finish-line-the-iron-yard-cf277b178201#.3u5b5farr",
+          imgURL: ""
+        },
+        {
           blogTitle: "Week 3 — The Iron Yard — Final Project",
           blogLink: "https://medium.com/@lucius956/week-3-the-iron-yard-final-project-ac96196c876b#.aq21ea9cb"
         },
@@ -99,6 +104,7 @@ export default React.createClass({
             <div key={i}>
               <article>
               <a className="blog-Posts hvr-glow" href={ blog.blogLink } target="_blank"> { blog.blogTitle } </a>
+              <img src={blog.imageURL} />
               </article>
             </div>
           )
