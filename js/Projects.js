@@ -83,14 +83,25 @@ export default React.createClass({
               return (
               <div key={i}>
                 <article ref="projectOne" className="article">
-                  <h2 className="project-Title">{project.noLinkTitle}  </h2>
+
+                    { project.noLinkTitle ? <h2 className="project-Title">{project.noLinkTitle}  </h2> : ""
+                    }
+
                   <a className="project-Title hvr-underline-from-center" target="_blank" href={ project.gitHub } > { project.title } </a>
                   <p className="projects-Description"> { project.text } </p>
-                  <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a>
-                  <p className="preview-Clicked-Text"> { project.imgText } </p>
+
+                    { (project.specialLink && project.specialLinktitle) ? <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a> : ""
+                    }
+
+                    { (project.imgText) ? <p className="preview-Clicked-Text"> { project.imgText } </p> : ""
+                    }
                   <div className="text-center">
-                    <img className="preview-Image" src={ project.imageUrl } />
-                    <img className="preview-Image" src={project.imageUrl2 } />
+
+                    { (project.imageUrl) ? <img className="preview-Image" src={ project.imageUrl } /> : ""
+                    }
+
+                    { (project.imageUrl2) ? <img className="preview-Image" src={project.imageUrl2 } /> : ""
+                    }
                   </div>
                 </article>
               </div>

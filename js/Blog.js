@@ -104,7 +104,7 @@ export default React.createClass({
             <div key={i}>
               <article>
               <a className="blog-Posts hvr-glow" href={ blog.blogLink } target="_blank"> { blog.blogTitle } </a>
-              <img src={blog.imageURL} />
+              <img src={blog.imgURL} />
               </article>
             </div>
           )

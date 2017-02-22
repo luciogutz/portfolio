@@ -227,7 +227,7 @@ h1 {
 
 .webDeveloper {
   color: #B71C1C;
-  font-size: 22px;
+  font-size: 20px;
   margin-left: 50%;
   margin-top: -10px;
 }
@@ -272,7 +272,7 @@ h1 {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 5%;
   display: block;
@@ -303,6 +303,7 @@ h1 {
   color: blue;
   text-decoration: none;
   font-size: 34px;
+  margin-bottom: 0;
 }
 
 .specialProject-Title {
@@ -340,7 +341,7 @@ h1 {
 
 .text-center {
   text-align: center;
-  height: 325px;
+  height: auto;
 }
 
 /*Resume Styling*/
@@ -642,6 +643,562 @@ span {
   right: 0;
 }
 
-@media only screen and (min-width: em) {
+@media only screen and (min-width: 25em) {
+  .webDeveloper {
+    color: #B71C1C;
+    font-size: 20px;
+    margin-left: 22%;
+    margin-top: -10px;
+  }
+
+  .homeButton {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -10%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 16px;
+  }
+
+  .blogButton {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 4%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 16px;
+  }
+
+  .projectsButton {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 18%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 13px;
+  }
+
+  .resumeButton {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 32%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 13px;
+  }
+
+  .mediumButton {
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 46%;
+    margin-left: -3%;
+  }
+
+  .gitHubButton {
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 60%;
+    margin-left: -3%;
+  }
+  .blogWrapper {
+    padding: 6px;
+    background-color: rgb(207, 216, 220);
+    width: 62%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: solid grey 1px;*/
+  }
+
+  .blog-Posts {
+    color: blue;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .project-Title {
+    color: blue;
+    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 10%;
+  }
+  .projects-Description {
+    text-align: center;
+    width: 88%;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    display: block;
+  }
+  .preview-Clicked-Text {
+    height: 40px;
+    margin-bottom: 1%;
+    color: #4CAF50;
+    margin-top: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  .preview-Image {
+    display: block;
+    height: 148px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .specialProject-Title {
+    color: orange;
+    text-decoration: none;
+    /*text-align: center;*/
+    /*display: block;*/
+    font-size: 26px;
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 32em) {
+  .webDeveloper {
+    color: #B71C1C;
+    font-size: 20px;
+    margin-left: 29%;
+    margin-top: -10px;
+  }
+
+  .homeButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -10%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 16px;
+  }
+
+  .blogButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 4%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 16px;
+  }
+
+  .projectsButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 18%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 13px;
+  }
+
+  .resumeButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 32%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 13px;
+  }
+
+  .mediumButton {
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 46%;
+    margin-left: -3%;
+  }
+
+  .gitHubButton {
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 60%;
+    margin-left: -3%;
+  }
+  .blogWrapper {
+    padding: 6px;
+    background-color: rgb(207, 216, 220);
+    width: 62%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: solid grey 1px;*/
+  }
+
+  .blog-Posts {
+    color: blue;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .project-Title {
+    color: blue;
+    text-decoration: none;
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 10%;
+  }
+  .projects-Description {
+    text-align: center;
+    width: 88%;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    display: block;
+  }
+  .preview-Clicked-Text {
+    height: 40px;
+    margin-bottom: 1%;
+    color: #4CAF50;
+    margin-top: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  .preview-Image {
+    display: block;
+    height: 200px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .specialProject-Title {
+    color: orange;
+    text-decoration: none;
+    /*text-align: center;*/
+    /*display: block;*/
+    font-size: 26px;
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 36em) {
+  .homeButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -10%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3%;
+    font-size: 18px;
+  }
+
+  .blogButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 1%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3%;
+    font-size: 18px;
+  }
+
+  .projectsButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 12%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3.5%;
+    font-size: 15px;
+  }
+
+  .resumeButton {
+    color: white;
+    background-color: black;
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 23%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 3.5%;
+    font-size: 15px;
+  }
+
+  .mediumButton {
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 34%;
+    margin-left: -3%;
+  }
+
+  .gitHubButton {
+    height: 62px;
+    width: 62px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 45%;
+    margin-left: -3%;
+  }
+}
+
+@media only screen and (min-width: 43em) {
+  .webDeveloper {
+    color: #B71C1C;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: -10px;
+  }
+
+  .homeButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -14%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 20px;
+  }
+
+  .blogButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: -2%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 20px;
+  }
+
+  .projectsButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 10%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 16px;
+  }
+
+  .resumeButton {
+    color: white;
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 22%;
+    margin-left: -3%;
+    text-decoration: none;
+    padding-top: 4%;
+    font-size: 16px;
+  }
+
+  .mediumButton {
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 34%;
+    margin-left: -3%;
+  }
+
+  .gitHubButton {
+    height: 75px;
+    width: 75px;
+    border: solid black 2px;
+    border-radius: 100px;
+    display: inline-block;
+    position: fixed;
+    margin-top: 46%;
+    margin-left: -3%;
+  }
+  .blogWrapper {
+    padding: 6px;
+    background-color: rgb(207, 216, 220);
+    width: 62%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: solid grey 1px;*/
+  }
+
+  .blog-Posts {
+    color: blue;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .project-Title {
+    color: blue;
+    text-decoration: none;
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 10%;
+  }
+  .projects-Description {
+    text-align: center;
+    width: 88%;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    display: block;
+  }
+  .preview-Clicked-Text {
+    height: 40px;
+    margin-bottom: 1%;
+    color: #4CAF50;
+    margin-top: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  .preview-Image {
+    display: block;
+    height: 200px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .specialProject-Title {
+    color: orange;
+    text-decoration: none;
+    /*text-align: center;*/
+    /*display: block;*/
+    font-size: 26px;
+    margin-bottom: 3%;
+  }
 
 }
