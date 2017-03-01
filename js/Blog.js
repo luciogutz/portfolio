@@ -7,6 +7,10 @@ export default React.createClass({
     return {
       blogs: [
         {
+          blogTitle: "Life after The Iron Yard — PHP",
+          blogLink: "https://medium.com/@lucius956/life-after-the-iron-yard-php-c1d08376cc83#.ldlxptx74"
+        },
+        {
           blogTitle: "The Finish Line — The Iron Yard",
           blogLink: "https://medium.com/@lucius956/the-finish-line-the-iron-yard-cf277b178201#.3u5b5farr",
           imgURL: ""
