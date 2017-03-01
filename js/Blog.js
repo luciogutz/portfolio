@@ -8,7 +8,8 @@ export default React.createClass({
       blogs: [
         {
           blogTitle: "Life after The Iron Yard — PHP",
-          blogLink: "https://medium.com/@lucius956/life-after-the-iron-yard-php-c1d08376cc83#.ldlxptx74"
+          blogLink: "https://medium.com/@lucius956/life-after-the-iron-yard-php-c1d08376cc83#.ldlxptx74",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/PHP.gif?raw=true"
         },
         {
           blogTitle: "The Finish Line — The Iron Yard",
@@ -108,7 +109,7 @@ export default React.createClass({
             <div key={i}>
               <article>
               <a className="blog-Posts hvr-glow" href={ blog.blogLink } target="_blank"> { blog.blogTitle } </a>
-              <img src={blog.imgURL} />
+              <img src={blog.imgURL} className="blog__Image"/>
               </article>
             </div>
           )

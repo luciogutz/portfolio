@@ -162,6 +162,16 @@ h1 {
   text-align: center;
 }*/
 
+.blog__Image {
+  height: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 3%;
+  display: -webkit-box;
+}
+
 .header {
   /*background-image: url("http://kingofwallpapers.com/code/code-010.jpg");*/
   height: 200px;
@@ -679,7 +689,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
   }
   .project-Title {
     color: blue;
@@ -836,7 +846,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
   }
   .project-Title {
     color: blue;
@@ -976,7 +986,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
   }
 }
 
@@ -1093,7 +1103,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 6%;
+    margin-bottom: 1%;
   }
   .project-Title {
     color: blue;
@@ -1427,7 +1437,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
   }
 
   .blogWrapper {
