@@ -68,19 +68,23 @@ export default React.createClass({
         },
         {
           blogTitle: "Week 4 of The Iron Yard…",
-          blogLink: "https://medium.com/@lucius956/week-4-of-the-iron-yard-7d07ae93b655#.rcm6xoki9"
+          blogLink: "https://medium.com/@lucius956/week-4-of-the-iron-yard-7d07ae93b655#.rcm6xoki9",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/jQuery%20Interview%20Questions%20and%20Answers.png?raw=true"
         },
         {
           blogTitle: "Beginner coder….the struggle is real.",
-          blogLink: "https://medium.com/@lucius956/beginner-coder-the-struggle-is-real-83fd1dae831b#.1qmos583d"
+          blogLink: "https://medium.com/@lucius956/beginner-coder-the-struggle-is-real-83fd1dae831b#.1qmos583d",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/struggle-is-real.png?raw=true"
         },
         {
           blogTitle: "The Iron Yard…Week 2 Project.",
-          blogLink: "https://medium.com/@lucius956/the-iron-yard-week-2-project-4f6682843bba#.fgfvoz8z4"
+          blogLink: "https://medium.com/@lucius956/the-iron-yard-week-2-project-4f6682843bba#.fgfvoz8z4",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/week-2-project.png?raw=true"
         },
         {
           blogTitle: "The Iron Yard…Week 2…learning javascript…",
-          blogLink: "https://medium.com/@lucius956/the-iron-yard-week-2-learning-javascript-eae2ba34163e#.gitij3x8d"
+          blogLink: "https://medium.com/@lucius956/the-iron-yard-week-2-learning-javascript-eae2ba34163e#.gitij3x8d",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/Javascript-shopping-cart.png?raw=true"
         },
         {
           blogTitle: "From Composer to Coder…why knowing music helps with programing.",
