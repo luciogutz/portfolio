@@ -14,15 +14,17 @@ export default React.createClass({
         {
           blogTitle: "The Finish Line — The Iron Yard",
           blogLink: "https://medium.com/@lucius956/the-finish-line-the-iron-yard-cf277b178201#.3u5b5farr",
-          imgURL: ""
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/The-finish-line.jpeg?raw=true"
         },
         {
           blogTitle: "Week 3 — The Iron Yard — Final Project",
-          blogLink: "https://medium.com/@lucius956/week-3-the-iron-yard-final-project-ac96196c876b#.aq21ea9cb"
+          blogLink: "https://medium.com/@lucius956/week-3-the-iron-yard-final-project-ac96196c876b#.aq21ea9cb",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/workflow-blog-feature.png?raw=true"
         },
         {
           blogTitle: "Week 2, Final Project— The Iron Yard",
-          blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-2e749886beb9#.4hr2odlmn"
+          blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-2e749886beb9#.4hr2odlmn",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/firebase.png?raw=true"
         },
         {
           blogTitle: "Final Project — The Iron Yard",

@@ -577,6 +577,12 @@ span {
 }
 
 @media only screen and (min-width: 25em) {
+  .blog-Title {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 24px;
+  }
+
   .webDeveloper {
     color: #B71C1C;
     font-size: 20px;
@@ -837,6 +843,12 @@ span {
     /*border: solid grey 1px;*/
   }
 
+  .blog-Title {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 28px;
+  }
+
   .blog-Posts {
     color: blue;
     font-size: 16px;
@@ -891,6 +903,13 @@ span {
 }
 
 @media only screen and (min-width: 36em) {
+
+  .blog-Title {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 28px;
+  }
+
   .homeButton {
     color: white;
     background-color: black;
@@ -991,6 +1010,12 @@ span {
 }
 
 @media only screen and (min-width: 43em) {
+  .blog-Title {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 28px;
+  }
+
   .webDeveloper {
     color: #B71C1C;
     font-size: 20px;
@@ -1148,6 +1173,12 @@ span {
 }
 
 @media only screen and (min-width: 49em) {
+  .blog-Title {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+
   .homeButton {
     color: white;
     background-color: black;
@@ -1236,6 +1267,12 @@ span {
 }
 
 @media only screen and (min-width: 68em) {
+  .blog-Title {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+
   .homeButton {
     color: white;
     background-color: black;
