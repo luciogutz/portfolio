@@ -53,7 +53,8 @@ export default React.createClass({
         },
         {
           blogTitle: "Client Week at The Iron Yard Day 2",
-          blogLink: "https://medium.com/@lucius956/client-week-at-the-iron-yard-day-2-6d2bbb476097#.em116apof"
+          blogLink: "https://medium.com/@lucius956/client-week-at-the-iron-yard-day-2-6d2bbb476097#.em116apof",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/Teamwork.jpg?raw=true"
         },
         {
           blogTitle: "Group Project: The Iron Yard — Client Week",
