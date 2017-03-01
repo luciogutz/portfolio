@@ -29,7 +29,7 @@ export default React.createClass({
         {
           blogTitle: "Final Project — The Iron Yard",
           blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-47784bd60b83#.od27qiydw",
-          imgURL: ""
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/Computing,_programming_and_coding_in_schools.jpg?raw=true"
         },
         {
           blogTitle: "Responsive Web-Design, my first crack at it.",
