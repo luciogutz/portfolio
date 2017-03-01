@@ -9,7 +9,8 @@ export default React.createClass({
         {
          title: "",
          noLinkTitle: "The Iron Yard Final Project-cAPPsul",
-         text: "The Iron Yard Final Project. I am currently partnered with a local entrepreneur who very recently launched his own startup called RecChanges. Long story short, told him I was studying at the Iron Yard and he gave me the opportunity to bring to life one of his ideas for an app. The goal is to carry this app beyond my time at the Iron Yard, as such I can't talk much about it. Currently the project is being developed as a web app in preparation for demo day Feb. 24th. However, very soon after will be transitioned to a mobile platform. I'm eager to get started with that phase of development. In the meantime Checkout RecChanges",
+         text: "Just finished up my course and it's with great pleasure that I show you my final project. Its called cAPPsul and it's a photo app which allows the user to store their photos in a meaninful place rather then just the photo gallery. I would like to thank my boy Jermaine for all his dedication to this projeect as well. Checkout his start up below called recchanges. Also checkout the demo video of my project and if you like, email me your thoughts.",
+         video: "https://youtu.be/cpfbtMbh-Tg",
          gitHub: "",
          specialLinktitle: "www.recchanges.com",
          specialLink: "http://www.recchanges.com/",
@@ -89,6 +90,8 @@ export default React.createClass({
 
                   <a className="project-Title hvr-underline-from-center" target="_blank" href={ project.gitHub } > { project.title } </a>
                   <p className="projects-Description"> { project.text } </p>
+
+                  { project.video ? <iframe width="640" height="360" src="https://www.youtube.com/embed/cpfbtMbh-Tg" frameBorder="0" allowFullScreen></iframe> : "" }
 
                     { (project.specialLink && project.specialLinktitle) ? <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a> : ""
                     }
