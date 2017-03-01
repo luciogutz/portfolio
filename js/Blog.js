@@ -88,23 +88,28 @@ export default React.createClass({
         },
         {
           blogTitle: "From Composer to Coder…why knowing music helps with programing.",
-          blogLink: "https://medium.com/@lucius956/from-composer-to-coder-why-knowing-music-helps-with-programing-4a16adb5b33#.kv75ha5za"
+          blogLink: "https://medium.com/@lucius956/from-composer-to-coder-why-knowing-music-helps-with-programing-4a16adb5b33#.kv75ha5za",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/composer-to-coder.jpeg?raw=true"
         },
         {
           blogTitle: "First week of The Iron Yard….done! Front-End Engineering.",
-          blogLink: "https://medium.com/@lucius956/first-week-of-the-iron-yard-done-front-end-engineering-749cb1e4e98e#.z419tzsog"
+          blogLink: "https://medium.com/@lucius956/first-week-of-the-iron-yard-done-front-end-engineering-749cb1e4e98e#.z419tzsog",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/first-week-done.png?raw=true"
         },
         {
           blogTitle: "Git er Dun!",
-          blogLink: "https://medium.com/@lucius956/git-er-dun-64e1e8edc690#.aaun7wkbr"
+          blogLink: "https://medium.com/@lucius956/git-er-dun-64e1e8edc690#.aaun7wkbr",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/Git-Logo.png?raw=true"
         },
         {
           blogTitle: "Terminal, Terminal, Terminal",
-          blogLink: "https://medium.com/@lucius956/terminal-terminal-terminal-60ec035a837#.ywiatchl4"
+          blogLink: "https://medium.com/@lucius956/terminal-terminal-terminal-60ec035a837#.ywiatchl4",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/terminal.png?raw=true"
         },
         {
           blogTitle: "My first day at The Iron Yard…",
-          blogLink: "https://medium.com/@lucius956/my-first-day-at-the-iron-yard-67340fbf7676#.u2v3cckv3"
+          blogLink: "https://medium.com/@lucius956/my-first-day-at-the-iron-yard-67340fbf7676#.u2v3cckv3",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/First-Day-of-School.jpg?raw=true"
         }
       ]
     }
