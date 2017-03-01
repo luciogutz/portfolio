@@ -28,23 +28,28 @@ export default React.createClass({
         },
         {
           blogTitle: "Final Project — The Iron Yard",
-          blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-47784bd60b83#.od27qiydw"
+          blogLink: "https://medium.com/@lucius956/final-project-the-iron-yard-47784bd60b83#.od27qiydw",
+          imgURL: ""
         },
         {
           blogTitle: "Responsive Web-Design, my first crack at it.",
-          blogLink: "https://medium.com/@lucius956/responsive-web-design-my-first-crack-at-it-b2b4d79b71bc#.podexi26m"
+          blogLink: "https://medium.com/@lucius956/responsive-web-design-my-first-crack-at-it-b2b4d79b71bc#.podexi26m",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/responsive-web-design.jpeg?raw=true"
         },
         {
           blogTitle: "IBM Design Thinking — The Iron Yard — Austin Campus",
-          blogLink: "https://medium.com/@lucius956/ibm-design-thinking-the-iron-yard-austin-campus-93165c6b62ae#.c5ymchmgx"
+          blogLink: "https://medium.com/@lucius956/ibm-design-thinking-the-iron-yard-austin-campus-93165c6b62ae#.c5ymchmgx",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/IBM.png?raw=true"
         },
         {
           blogTitle: "Client Week day 4, 5 and 6 — The Iron Yard",
-          blogLink: "https://medium.com/@lucius956/client-week-day-4-5-and-6-the-iron-yard-f206f7a01412#.4f9d35an8"
+          blogLink: "https://medium.com/@lucius956/client-week-day-4-5-and-6-the-iron-yard-f206f7a01412#.4f9d35an8",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/All-things-spurs.png?raw=true"
         },
         {
           blogTitle: "Client Week day 3 -onClick using React",
-          blogLink: "https://medium.com/@lucius956/client-week-day-3-onclick-using-react-982daff7a826#.x8h4d5b55"
+          blogLink: "https://medium.com/@lucius956/client-week-day-3-onclick-using-react-982daff7a826#.x8h4d5b55",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/react.png?raw=true"
         },
         {
           blogTitle: "Client Week at The Iron Yard Day 2",
@@ -52,11 +57,13 @@ export default React.createClass({
         },
         {
           blogTitle: "Group Project: The Iron Yard — Client Week",
-          blogLink: "https://medium.com/@lucius956/group-project-the-iron-yard-client-week-4420dd8b2f6f#.7m2g7qwab"
+          blogLink: "https://medium.com/@lucius956/group-project-the-iron-yard-client-week-4420dd8b2f6f#.7m2g7qwab",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/meeting_client.jpg?raw=true"
         },
         {
           blogTitle: "Learning Code? Or learning how to fail?",
-          blogLink: "https://medium.com/@lucius956/learning-code-or-learning-how-to-fail-695fe004492d#.5twzuuj54"
+          blogLink: "https://medium.com/@lucius956/learning-code-or-learning-how-to-fail-695fe004492d#.5twzuuj54",
+          imgURL: "https://github.com/luciogutz/portfolio/blob/master/Photos/learning-how-to-fail.jpeg?raw=true"
         },
         {
           blogTitle: "Week 4 of The Iron Yard…",
