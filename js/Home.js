@@ -15,11 +15,11 @@ export default React.createClass({
       }
     }
   },
-  componentDidMount: function() {
-    axios.get("https://newsapi.org/v1/articles?source=techcrunch&sortBy=latest&apiKey=1a07ab283b5e43b898acbf04efbb3136").then(function(results){
-      console.log(results);
-    })
-  },
+  // componentDidMount: function() {
+  //   axios.get("https://newsapi.org/v1/articles?source=techcrunch&sortBy=latest&apiKey=1a07ab283b5e43b898acbf04efbb3136").then(function(results){
+  //     console.log(results);
+  //   })
+  // },
   render() {
       return (
         <section>
