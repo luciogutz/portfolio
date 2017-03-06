@@ -9,7 +9,15 @@ body {
 }
 
 h1 {
-  text-shadow: 3px 5px 10px #607D8B;
+  text-shadow: 3px 10px 10px black;
+}
+
+
+.banner {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
 }
 
 .article {
@@ -23,7 +31,6 @@ h1 {
 }
 
 .hvr-grow {
-  position: absolute;
   display: inline-block;
   /*vertical-align: middle;*/
   -webkit-transform: perspective(1px) translateZ(0);
@@ -40,127 +47,6 @@ h1 {
   color: yellow;
 }
 
-/*.homeButton {
-  color: white;
-  background-color: black;
-  height: 100px;
-  width: 100px;
-  border: solid black 2px;
-  border-radius: 100px;
-  display: inline-block;
-  position: fixed;
-  margin-top: -10%;
-  margin-left: 2%;
-  text-decoration: none;
-  padding-top: 2.5%;
-  font-size: 24px;
-}
-
-.blogButton {
-  color: white;
-  background-color: black;
-  height: 100px;
-  width: 100px;
-  border: solid black 2px;
-  border-radius: 100px;
-  display: inline-block;
-  position: fixed;
-  margin-top: -1%;
-  margin-left: 2%;
-  text-decoration: none;
-  padding-top: 2.5%;
-  font-size: 24px;
-}
-
-.projectsButton {
-  color: white;
-  background-color: black;
-  height: 100px;
-  width: 100px;
-  border: solid black 2px;
-  border-radius: 100px;
-  display: inline-block;
-  position: fixed;
-  margin-top: 8%;
-  margin-left: 2%;
-  text-decoration: none;
-  padding-top: 2.5%;
-  font-size: 24px;
-}
-
-.resumeButton {
-  color: white;
-  background-color: black;
-  height: 100px;
-  width: 100px;
-  border: solid black 2px;
-  border-radius: 100px;
-  display: inline-block;
-  position: fixed;
-  margin-top: 17%;
-  margin-left: 2%;
-  text-decoration: none;
-  padding-top: 2.5%;
-  font-size: 24px;
-}
-
-.mediumButton {
-  height: 100px;
-  width: 100px;
-  border: solid black 2px;
-  border-radius: 100px;
-  display: inline-block;
-  position: fixed;
-  margin-top: 26%;
-  margin-left: 2%;
-}
-
-.gitHubButton {
-  height: 100px;
-  width: 100px;
-  border: solid black 2px;
-  border-radius: 100px;
-  display: inline-block;
-  position: fixed;
-  margin-top: 35%;
-  margin-left: 2%;
-}*/
-
-/*.blog-Title {
-  font-family: Impact, Charcoal, sans-serif;
-  text-align: center;
-  font-size: 40px;
-}
-
-.blog-Posts {
-  color: blue;
-  font-size: 24px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  margin-bottom: 5%;
-}*/
-
-/*.blogWrapper {
-  padding: 6px;
-  background-color: rgb(207, 216, 220);
-  width: 50%;
-  margin-top: 3%;
-  margin-bottom: 5%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.blog__inside--wrapper {
-  border: solid white 3px;
-}
-
-.blog-Medium {
-  text-align: center;
-}*/
 
 .blog__Image {
   height: auto;
@@ -173,26 +59,22 @@ h1 {
 }
 
 .header {
-  /*background-image: url("http://kingofwallpapers.com/code/code-010.jpg");*/
-  height: 200px;
+  height: auto;
 }
 
 .header-Title {
-  color: #212121;
-  font-family: Impact, Charcoal, sans-serif;
-  margin: 0;
-  font-size: 60px;
+  color: white;
+  font-family: avenir-light;
+  font-weight: 100;
+  margin-top: 0;
+  padding-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80px;
   line-height: 200px;
   width:  100%;
   height: 150px;
   text-align: center;
-}
-
-.webDeveloper {
-  color: #B71C1C;
-  font-size: 20px;
-  margin-left: 50%;
-  margin-top: -10px;
 }
 
 .nav {
@@ -200,29 +82,13 @@ h1 {
 }
 
 .sideNav {
-  width: 15%;
-  float: left;
+  width: 100%;
 }
 
 .nav__div--Buttons {
-  margin-left: 0;
+  margin-left: 25%;
   width: 50%;
   text-align: center;
-}
-
-.home-Bio {
-  display: inline-block;
-}
-
-.home-Bio-Wrapper {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 5%;
-  display: block;
-  margin-top: 3%;
 }
 
 .project__Section {
@@ -240,9 +106,12 @@ h1 {
 }
 
 .projects__page--Title {
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: avenir-light;
+  font-weight: 100;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  color: white;
+  padding-top: 10%;
 }
 
 .project-Title {
@@ -583,97 +452,28 @@ span {
     font-size: 24px;
   }
 
-  .webDeveloper {
-    color: #B71C1C;
-    font-size: 20px;
-    margin-left: 22%;
-    margin-top: -10px;
-  }
-
   .homeButton {
-    color: white;
-    background-color: black;
-    height: 50px;
-    width: 50px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -10%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 16px;
+
   }
 
   .blogButton {
-    color: white;
-    background-color: black;
-    height: 50px;
-    width: 50px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 4%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 16px;
+
   }
 
   .projectsButton {
-    color: white;
-    background-color: black;
-    height: 50px;
-    width: 50px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 18%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 13px;
+
   }
 
   .resumeButton {
-    color: white;
-    background-color: black;
-    height: 50px;
-    width: 50px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 32%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 13px;
+
   }
 
   .mediumButton {
-    height: 50px;
-    width: 50px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 46%;
-    margin-left: -3%;
+
   }
 
   .gitHubButton {
-    height: 50px;
-    width: 50px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 60%;
-    margin-left: -3%;
+
   }
   .blogWrapper {
     padding: 6px;
@@ -740,97 +540,28 @@ span {
 }
 
 @media only screen and (min-width: 32em) {
-  .webDeveloper {
-    color: #B71C1C;
-    font-size: 20px;
-    margin-left: 29%;
-    margin-top: -10px;
-  }
-
   .homeButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -10%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 16px;
+
   }
 
   .blogButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 4%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 16px;
+
   }
 
   .projectsButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 18%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 15px;
+
   }
 
   .resumeButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 32%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 15px;
+
   }
 
   .mediumButton {
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 46%;
-    margin-left: -3%;
+
   }
 
   .gitHubButton {
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 60%;
-    margin-left: -3%;
+
   }
   .blogWrapper {
     padding: 6px;
@@ -911,89 +642,27 @@ span {
   }
 
   .homeButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -10%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3%;
-    font-size: 18px;
+
   }
 
   .blogButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 1%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3%;
-    font-size: 18px;
+
   }
 
   .projectsButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 12%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3.5%;
-    font-size: 15px;
+
   }
 
   .resumeButton {
-    color: white;
-    background-color: black;
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 23%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3.5%;
-    font-size: 15px;
+
   }
 
   .mediumButton {
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 34%;
-    margin-left: -3%;
+
   }
 
   .gitHubButton {
-    height: 62px;
-    width: 62px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 45%;
-    margin-left: -3%;
+
   }
 
   .blog-Posts {
@@ -1016,97 +685,28 @@ span {
     font-size: 28px;
   }
 
-  .webDeveloper {
-    color: #B71C1C;
-    font-size: 20px;
-    margin-left: 50%;
-    margin-top: -10px;
-  }
-
   .homeButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -14%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 20px;
+
   }
 
   .blogButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -2%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 20px;
+
   }
 
   .projectsButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 10%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 18px;
+
   }
 
   .resumeButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 22%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 4%;
-    font-size: 18px;
+
   }
 
   .mediumButton {
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 34%;
-    margin-left: -3%;
+
   }
 
   .gitHubButton {
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 46%;
-    margin-left: -3%;
+
   }
   .blogWrapper {
     padding: 6px;
@@ -1180,89 +780,27 @@ span {
   }
 
   .homeButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -14%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3.2%;
-    font-size: 20px;
+
   }
 
   .blogButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -4%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3.2%;
-    font-size: 20px;
+
   }
 
   .projectsButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 6%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3.2%;
-    font-size: 18px;
+
   }
 
   .resumeButton {
-    color: white;
-    background-color: black;
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 16%;
-    margin-left: -3%;
-    text-decoration: none;
-    padding-top: 3.2%;
-    font-size: 18px;
+
   }
 
   .mediumButton {
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 26%;
-    margin-left: -3%;
+
   }
 
   .gitHubButton {
-    height: 75px;
-    width: 75px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 36%;
-    margin-left: -3%;
+
   }
 }
 
@@ -1274,89 +812,27 @@ span {
   }
 
   .homeButton {
-    color: white;
-    background-color: black;
-    height: 80px;
-    width: 80px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -14%;
-    margin-left: 0;
-    text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 20px;
+
   }
 
   .blogButton {
-    color: white;
-    background-color: black;
-    height: 80px;
-    width: 80px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -5%;
-    margin-left: 0;
-    text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 20px;
+
   }
 
   .projectsButton {
-    color: white;
-    background-color: black;
-    height: 80px;
-    width: 80px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 4%;
-    margin-left: 0;
-    text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 18px;
+
   }
 
   .resumeButton {
-    color: white;
-    background-color: black;
-    height: 80px;
-    width: 80px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 13%;
-    margin-left: 0;
-    text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 18px;
+
   }
 
   .mediumButton {
-    height: 80px;
-    width: 80px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 22%;
-    margin-left: 0;
+
   }
 
   .gitHubButton {
-    height: 80px;
-    width: 80px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 31%;
-    margin-left: 0;
+
   }
 
 }
@@ -1364,88 +840,43 @@ span {
 @media only screen and (min-width: 71em) {
   .homeButton {
     color: white;
-    background-color: black;
-    height: 90px;
-    width: 90px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -15%;
-    margin-left: 2%;
     text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 24px;
+    margin-left: 10%;
+    font-family: avenir-light;
   }
 
   .blogButton {
-    color: white;
-    background-color: black;
-    height: 90px;
-    width: 90px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: -7%;
-    margin-left: 2%;
     text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+    font-family: avenir-light;
   }
 
   .projectsButton {
-    color: white;
-    background-color: black;
-    height: 90px;
-    width: 90px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 1%;
-    margin-left: 2%;
     text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+    font-family: avenir-light;
   }
 
   .resumeButton {
-    color: white;
-    background-color: black;
-    height: 90px;
-    width: 90px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 9%;
-    margin-left: 2%;
     text-decoration: none;
-    padding-top: 2.5%;
-    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+    font-family: avenir-light;
   }
 
-  .mediumButton {
-    height: 90px;
-    width: 90px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 17%;
-    margin-left: 2%;
-  }
+  /*.mediumButton {
+    text-decoration: none;
+    color: white;
+  }*/
 
   .gitHubButton {
-    height: 90px;
-    width: 90px;
-    border: solid black 2px;
-    border-radius: 100px;
-    display: inline-block;
-    position: fixed;
-    margin-top: 25%;
-    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-family: avenir-light;
   }
   /* start of putting things in */
 
@@ -1514,5 +945,45 @@ span {
     margin-top: 0;
     text-align: center;
     font-size: 24px;
+  }
+
+  .welcome {
+    color: white;
+    font-size: 1.5em;
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+  }
+
+  .menu {
+    border-top: solid white 1px;
+    padding-top: 2%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    text-align: center;
+  }
+
+  .projects__Banner {
+    width: 100%;
+    height: 27em;
+    background-image: url();
+    text-align: center;
+    font-family: avenir-light;
+  }
+
+  .projects__Banner--Layer {
+    background-color: rgba(1, 87, 155, 0.7);
+    width: 100%;
+    height: 27em;
+  }
+
+  .projects__Banner--description {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }

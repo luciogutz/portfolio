@@ -75,8 +75,14 @@ export default React.createClass({
   },
   render(){
     return(
+      <section>
+      <section className="projects__Banner">
+        <div className="projects__Banner--Layer">
+         <h2 className="projects__page--Title"> Projects </h2>
+         <p className="projects__Banner--description"> The following projects are indicative of my time at The Iron Yard and is a foundational overview of the diverse avenues I can take as a software developer. </p>
+        </div>
+      </section>
       <section className="project__Section">
-        <h2 className="projects__page--Title"> Projects </h2>
         <div className="project__Container">
           {
             this.props.projects.map((project, i)=>
@@ -113,6 +119,7 @@ export default React.createClass({
           }
         </div>
       </section>
+    </section>
 
     )
   }
