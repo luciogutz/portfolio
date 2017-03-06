@@ -971,9 +971,11 @@ span {
   .projects__Banner {
     width: 100%;
     height: 27em;
-    background-image: url();
+    background-size: contain;
+    background-image: url("https://github.com/luciogutz/portfolio/blob/master/Photos/background-image-projects-banner.jpeg?raw=true");
     text-align: center;
     font-family: avenir-light;
+    position: relative;
   }
 
   .projects__Banner--Layer {
