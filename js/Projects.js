@@ -7,11 +7,11 @@ export default React.createClass({
     return {
       projects: [
         {
-         title: "",
-         noLinkTitle: "The Iron Yard Final Project-cAPPsul",
+         title: "The Iron Yard Final Project-cAPPsul",
+         noLinkTitle: "",
          text: "Just finished up my course and it's with great pleasure that I show you my final project. Its called cAPPsul and it's a photo app which allows the user to store their photos in a meaninful place rather then just the photo gallery. I would like to thank my boy Jermaine for all his dedication to this projeect as well. Checkout his start up below called recchanges. Also checkout the demo video of my project and if you like, email me your thoughts.",
          video: "https://youtu.be/cpfbtMbh-Tg",
-         gitHub: "",
+         gitHub: "https://github.com/luciogutz/capsule",
          specialLinktitle: "www.recchanges.com",
          specialLink: "http://www.recchanges.com/",
          imgText: "Screen shot of final project SignIn page",
@@ -88,34 +88,22 @@ export default React.createClass({
             this.props.projects.map((project, i)=>
             {
               return (
-              <div key={i} className="tiles">
+              <div key={i} className="tiles hvr-grow">
                 <article ref="projectOne" className="article">
-
-                    { project.noLinkTitle ? <h2 className="project-Title">{project.noLinkTitle}  </h2> : ""
-                    }
-
                   <a className="project-Title hvr-underline-from-center" target="_blank" href={ project.gitHub } > { project.title } </a>
-                  <p className="projects-Description"> { project.text } </p>
-
-                    { (project.specialLink && project.specialLinktitle) ? <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a> : ""
-                    }
-
-                    { (project.imgText) ? <p className="preview-Clicked-Text"> { project.imgText } </p> : ""
-                    }
                   <div className="text-center">
-
                     { (project.imageUrl) ? <img className="preview-Image" src={ project.imageUrl } /> : ""
                     }
-
-                    { (project.imageUrl2) ? <img className="preview-Image" src={project.imageUrl2 } /> : ""
-                    }
+                    <div className="text_Hover">
+                       <p className="projects-Description"> { project.text } </p>
+                    </div>
                   </div>
                 </article>
               </div>
               )
             })
           }
-        
+
       </section>
     </section>
 
