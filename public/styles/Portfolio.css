@@ -771,6 +771,8 @@ span {
     height: 16em;
     padding: 8px;
     font-size: 18px;
+    font-family: avenir-light;
+    padding-top: 3em;
     margin-right: auto;
     margin-left: 50%;
     margin-bottom: 1%;
@@ -967,6 +969,7 @@ span {
     color: orange;
     text-decoration: none;
     font-size: 34px;
+    margin-top: -150%;
   }
 
   .preview-Image {
