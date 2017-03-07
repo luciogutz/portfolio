@@ -27,6 +27,12 @@ export default React.createClass({
         <section>
           <Header />
           <Projects />
+          <section>
+            <article className="developing">
+              <h1> Developing </h1>
+              <p>  </p>
+            </article>
+          </section>
        </section>
     )
   }

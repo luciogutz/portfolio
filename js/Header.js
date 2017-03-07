@@ -16,7 +16,7 @@ export default React.createClass ({
         <section className="menu">
           <Link to="/" className="homeButton hvr-grow">Home</Link>
           <a onClick={this.onProjectsClick} href="#" className="projectsButton hvr-grow">Projects</a>
-          <Link to="/Blog" className="blogButton hvr-grow">Blog</Link>
+          <Link href="https://medium.com/@lucius956" target="_blank" className="blogButton hvr-grow">Blog</Link>
           <Link to="/Resume" className="resumeButton hvr-grow">Resume</Link>
           <a href="https://github.com/luciogutz?tab=repositories" target="_blank" className="gitHubButton hvr-grow">GitHub</a>
         </section>

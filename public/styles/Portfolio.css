@@ -12,6 +12,11 @@ h1 {
   text-shadow: 3px 10px 10px black;
 }
 
+.developing {
+  width: 100%;
+  height: auto;
+  background-image: url();
+}
 
 .banner {
   width: 100%;
