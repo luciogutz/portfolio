@@ -20,6 +20,15 @@ h1 {
   z-index: -1;
 }
 
+.parallax {
+  background-image: url("https://github.com/luciogutz/portfolio/blob/master/Photos/banner-portfolio-sample.jpeg?raw=true");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
 .article {
   height: auto;
   width: 70%;
@@ -67,7 +76,7 @@ h1 {
   font-family: avenir-light;
   font-weight: 100;
   margin-top: 0;
-  padding-top: 8%;
+  padding-top: 7%;
   margin-left: auto;
   margin-right: auto;
   font-size: 80px;
@@ -93,6 +102,7 @@ h1 {
 
 .project__Section {
   padding-bottom: 10em;
+  width: 100%;
 }
 
 .projects-Description {
@@ -111,7 +121,8 @@ h1 {
   text-align: center;
   font-size: 60px;
   color: white;
-  padding-top: 10%;
+  padding-top: 8%;
+  margin-top: 0;
 }
 
 .project-Title {
@@ -523,6 +534,7 @@ span {
   }
   .preview-Image {
     display: block;
+    width: 100%;
     height: 148px;
     padding: 5px;
     margin-left: auto;
@@ -882,12 +894,12 @@ span {
 
   .article {
     height: auto;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     text-align: center;
-    border-bottom: solid black 1px;
+    border: solid black 1px;
   }
 
   .blog-Title {
@@ -934,7 +946,7 @@ span {
   }
 
   .preview-Image {
-    height: 275px;
+    height: 250px;
     padding: 4px;
   }
 
@@ -960,6 +972,7 @@ span {
   .menu {
     border-top: solid white 1px;
     padding-top: 2%;
+    padding-bottom: 5%;
     margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
@@ -987,5 +1000,12 @@ span {
   .projects__Banner--description {
     margin-left: 20%;
     margin-right: 20%;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .tiles {
+    display: inline-block;
+    width: 30%;
   }
 }

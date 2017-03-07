@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import Preview from './Preview'
+
 
 export default React.createClass({
   getDefaultProps() {
@@ -76,19 +76,19 @@ export default React.createClass({
   render(){
     return(
       <section>
-      <section className="projects__Banner">
+      <section name="" className="projects__Banner">
         <div className="projects__Banner--Layer">
          <h2 className="projects__page--Title"> Projects </h2>
          <p className="projects__Banner--description"> The following projects are indicative of my time at The Iron Yard and is a foundational overview of the diverse avenues I can take as a software developer. </p>
         </div>
       </section>
       <section className="project__Section">
-        <div className="project__Container">
+
           {
             this.props.projects.map((project, i)=>
             {
               return (
-              <div key={i}>
+              <div key={i} className="tiles">
                 <article ref="projectOne" className="article">
 
                     { project.noLinkTitle ? <h2 className="project-Title">{project.noLinkTitle}  </h2> : ""
@@ -96,8 +96,6 @@ export default React.createClass({
 
                   <a className="project-Title hvr-underline-from-center" target="_blank" href={ project.gitHub } > { project.title } </a>
                   <p className="projects-Description"> { project.text } </p>
-
-                  { project.video ? <iframe width="640" height="360" src="https://www.youtube.com/embed/cpfbtMbh-Tg" frameBorder="0" allowFullScreen></iframe> : "" }
 
                     { (project.specialLink && project.specialLinktitle) ? <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a> : ""
                     }
@@ -117,7 +115,7 @@ export default React.createClass({
               )
             })
           }
-        </div>
+        
       </section>
     </section>
 

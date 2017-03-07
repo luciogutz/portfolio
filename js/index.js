@@ -5,7 +5,6 @@ import Home from './Home'
 import Blog from './Blog'
 import Projects from './Projects'
 import Portfolio from './Portfolio'
-import Preview from './Preview'
 import Resume from './Resume'
 import SideNav from './SideNav'
 
@@ -15,7 +14,7 @@ render(
       <Route component={ Portfolio }>
         <Route path="/" component={ Home } />
         <Route path="/blog" component={ Blog } />
-        <Route path="/Projects" component={ Projects } />
+        // <Route path="/Projects" component={ Projects } />
       </Route>
       <Route path="/Resume" component={ Resume } />
     </Router>
