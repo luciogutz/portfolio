@@ -94,13 +94,16 @@ export default React.createClass({
                 <article ref="projectOne" className="article">
                   <a className="project-Title hvr-underline-from-center" target="_blank" href={ project.gitHub } > { project.title } </a>
                   <div className="text-center">
+
                     { (project.imageUrl) ? <img className="preview-Image" src={ project.imageUrl } /> : ""
                     }
-                    <div className="text_Hover">
-                       <p className="projects-Description"> { project.text } </p>
-                       { (project.specialLink &&    project.specialLinktitle) ? <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a> : ""
-                     }
-                    </div>
+                    <a href={project.gitHub} target="_blank">
+                      <div className="text_Hover">
+                         <p className="projects-Description"> { project.text } </p>
+                         { (project.specialLink &&    project.specialLinktitle) ? <a className="specialProject-Title orange-hvr-underline-from-center" target="_blank" href={ project.specialLink } > { project.specialLinktitle } </a> : ""
+                        }
+                      </div>
+                    </a>
                   </div>
                 </article>
               </div>

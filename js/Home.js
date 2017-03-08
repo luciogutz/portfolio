@@ -34,7 +34,7 @@ export default React.createClass({
               <p className="developing__Text"> Future goals are to get into mobile applications. Perhaps React Native is a route I will consider taking, or straight IOS or Android development. Either way it ought to be very interesting. </p>
             </article>
             <h2 className="developing__page--Contact"> Contact </h2>
-            <p className="developing__Text"> lucio.gutierrez30@yahoo.com </p>
+            <a href="mailto:lucio.gutierrez30@yahoo.com" className="email">lucio.gutierrez30@yahoo.com</a>
           </section>
        </section>
     )

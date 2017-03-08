@@ -12,10 +12,6 @@ h1 {
   text-shadow: 3px 10px 10px black;
 }
 
-h2 {
-  text-shadow: 3px 10px 10px black;
-}
-
 .developing {
   background-color: rgba(1, 87, 155, 0.7);
   width: 100%;
@@ -68,7 +64,7 @@ h2 {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  color: yellow;
+  color: blue;
 }
 
 
@@ -142,6 +138,7 @@ h2 {
 }
 
 .developing__page--Title {
+  text-shadow: 3px 10px 10px black;
   font-family: avenir-light;
   font-weight: 100;
   text-align: center;
@@ -153,6 +150,7 @@ h2 {
 }
 
 .developing__page--Contact {
+  text-shadow: 3px 10px 10px black;
   font-family: avenir-light;
   font-weight: 100;
   text-align: center;
@@ -203,6 +201,15 @@ h2 {
 }
 
 /*Resume Styling*/
+.resume__Home {
+  text-decoration: none;
+  font-size: 2em;
+  float: left;
+  margin-left: 8%;
+  font-family: avenir-light;
+  position: fixed;
+  color: black;
+}
 
 .css {
   color: rgb(251, 214, 3);
@@ -913,11 +920,20 @@ span {
 }
 
 @media only screen and (min-width: 71em) {
+  .email {
+    display: block;
+    margin-left: 38.7%;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 1%;
+  }
+
   .homeButton {
     color: white;
     text-decoration: none;
     margin-left: 10%;
     font-family: avenir-light;
+    font-size: 2em;
   }
 
   .blogButton {
@@ -925,6 +941,7 @@ span {
     color: white;
     margin-left: 5%;
     font-family: avenir-light;
+    font-size: 2em;
   }
 
   .projectsButton {
@@ -932,6 +949,7 @@ span {
     color: white;
     margin-left: 5%;
     font-family: avenir-light;
+    font-size: 2em;
   }
 
   .resumeButton {
@@ -939,6 +957,7 @@ span {
     color: white;
     margin-left: 5%;
     font-family: avenir-light;
+    font-size: 2em;
   }
 
   /*.mediumButton {
@@ -952,6 +971,7 @@ span {
     margin-left: 5%;
     margin-right: 10%;
     font-family: avenir-light;
+    font-size: 2em;
   }
   /* start of putting things in */
 
