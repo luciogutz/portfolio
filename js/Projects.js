@@ -80,7 +80,7 @@ export default React.createClass({
       <section>
       <section name="" className="projects__Banner">
         <div className="projects__Banner--Layer">
-        <a name="proj"></a>
+        <a name="proj" id="projects"></a>
          <h2 className="projects__page--Title"> Projects </h2>
          <p className="projects__Banner--description"> The following projects are indicative of my time at The Iron Yard and is a foundational overview of the diverse avenues I have taken and will take as a software developer. </p>
         </div>

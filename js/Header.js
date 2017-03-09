@@ -4,14 +4,17 @@ import SmoothScroll from 'smooth-scroll'
 
 export default React.createClass ({
   onProjectsClick(){
-    SmoothScroll.animateScroll( 820 )
+    //SmoothScroll.animateScroll( 820 )
+    SmoothScroll.animateScroll(document.querySelector('#projects'), 0, { speed: 1000, easing: 'easeInOutCubic' })
   },
   onDeveloping(){
-    SmoothScroll.animateScroll( 2500 )
+    SmoothScroll.animateScroll( document.querySelector('#developing'), 0, { speed: 2000, easing: 'easeInOutCubic' })
+
   },
   render () {
     return (
       <header className="header">
+        <a id="top"></a>
         <section className="parallax">
           <h1 className="header-Title"> Lucio Gutierrez </h1>
 

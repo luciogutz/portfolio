@@ -24,7 +24,7 @@ export default React.createClass({
   //   })
   // },
   toTop(){
-    SmoothScroll.animateScroll( 0 )
+    SmoothScroll.animateScroll( document.querySelector('#top'), 0, { speed: 2200, easing: 'easeInOutCubic' })
   },
   render() {
       return (
@@ -32,7 +32,8 @@ export default React.createClass({
           <Header />
           <Projects />
           <section className="developing__Banner">
-            <article className="developing">
+            <article id="developing" data-scroll
+              className="developing">
               <h1 className="developing__page--Title"> Developing </h1>
               <p className="developing__Text"> My skill set is based on front end development, and I'm continuing to work on those aspects of my abilities. Currently however I have begun to learn PHP and that has been a steady process. </p>
               <p className="developing__Text"> Future goals are to get into mobile applications. Perhaps React Native is a route I will consider taking, or straight IOS or Android development. Either way it ought to be very interesting. </p>
