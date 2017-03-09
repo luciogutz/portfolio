@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-
+import SmoothScroll from 'smooth-scroll'
 
 export default React.createClass({
   getDefaultProps() {
@@ -80,8 +80,9 @@ export default React.createClass({
       <section>
       <section name="" className="projects__Banner">
         <div className="projects__Banner--Layer">
+        <a name="proj"></a>
          <h2 className="projects__page--Title"> Projects </h2>
-         <p className="projects__Banner--description"> The following projects are indicative of my time at The Iron Yard and is a foundational overview of the diverse avenues I can take as a software developer. </p>
+         <p className="projects__Banner--description"> The following projects are indicative of my time at The Iron Yard and is a foundational overview of the diverse avenues I have taken and will take as a software developer. </p>
         </div>
       </section>
       <section className="project__Section">

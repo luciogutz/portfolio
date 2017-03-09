@@ -4,7 +4,10 @@ import SmoothScroll from 'smooth-scroll'
 
 export default React.createClass ({
   onProjectsClick(){
-    window.scrollBy({ top: 300, left: 0, behavior: 'smooth' });
+    SmoothScroll.animateScroll( 820 )
+  },
+  onDeveloping(){
+    SmoothScroll.animateScroll( 2500 )
   },
   render () {
     return (
@@ -15,8 +18,10 @@ export default React.createClass ({
         <p className="welcome"> Hi, my name is Lucio Gutierrez and I am a Front end Developer from San Antonio, TX. Just graduated from The Iron Yard and am excited to see where this new found passion will take me.  </p>
         <section className="menu">
           <Link to="/" className="homeButton hvr-grow">Home</Link>
+          <a ref="proj" className="projectsButton hvr-grow"  onClick={this.onProjectsClick} data-scroll data-options='{"easing": "easeInOutCubic"}'> Projects </a>
           <Link href="https://medium.com/@lucius956" target="_blank" className="blogButton hvr-grow">Blog</Link>
           <Link to="/Resume" className="resumeButton hvr-grow">Resume</Link>
+          <a onClick={this.onDeveloping} className="developingButton hvr-grow"> Developing </a>
           <a href="https://github.com/luciogutz?tab=repositories" target="_blank" className="gitHubButton hvr-grow">GitHub</a>
         </section>
         </section>

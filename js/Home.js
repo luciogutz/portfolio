@@ -4,6 +4,7 @@ import { ajax } from 'jquery'
 import axios from 'axios'
 import Header from './Header'
 import Projects from './Projects'
+import SmoothScroll from 'smooth-scroll'
 
 export default React.createClass({
   // getInitialState() {
@@ -22,6 +23,9 @@ export default React.createClass({
   //     console.log(results);
   //   })
   // },
+  toTop(){
+    SmoothScroll.animateScroll( 0 )
+  },
   render() {
       return (
         <section>
@@ -35,6 +39,7 @@ export default React.createClass({
             </article>
             <h2 className="developing__page--Contact"> Contact </h2>
             <a href="mailto:lucio.gutierrez30@yahoo.com" className="email">lucio.gutierrez30@yahoo.com</a>
+            <a className="toTop hvr-grow" onClick={this.toTop}> Menu </a>
           </section>
        </section>
     )

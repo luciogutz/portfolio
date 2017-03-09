@@ -64,7 +64,7 @@ h1 {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  color: blue;
+  color: yellow;
 }
 
 
@@ -933,7 +933,7 @@ span {
     text-decoration: none;
     margin-left: 10%;
     font-family: avenir-light;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .blogButton {
@@ -941,7 +941,7 @@ span {
     color: white;
     margin-left: 5%;
     font-family: avenir-light;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .projectsButton {
@@ -949,7 +949,8 @@ span {
     color: white;
     margin-left: 5%;
     font-family: avenir-light;
-    font-size: 2em;
+    font-size: 1.5em;
+    cursor: pointer;
   }
 
   .resumeButton {
@@ -957,7 +958,15 @@ span {
     color: white;
     margin-left: 5%;
     font-family: avenir-light;
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+
+  .developingButton {
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+    font-family: avenir-light;
+    font-size: 1.5em;
   }
 
   /*.mediumButton {
@@ -971,7 +980,7 @@ span {
     margin-left: 5%;
     margin-right: 10%;
     font-family: avenir-light;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   /* start of putting things in */
 
@@ -1068,11 +1077,11 @@ span {
   .menu {
     border-top: solid white 1px;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
     margin-top: 16%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     height: auto;
     text-align: center;
   }
@@ -1098,6 +1107,16 @@ span {
     margin-right: 20%;
     color: white;
     font-size: 1.5em;
+  }
+
+  .toTop {
+    font-size: 2em;
+    color: white;
+    font-family: avenir-light;
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    cursor: pointer;
   }
 
   .tiles {
