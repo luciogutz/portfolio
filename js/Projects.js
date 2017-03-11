@@ -75,6 +75,9 @@ export default React.createClass({
      ]
     }
   },
+  toTop(){
+    SmoothScroll.animateScroll( document.querySelector('#top'), 0, { speed: 2200, easing: 'easeInOutCubic' })
+  },
   render(){
     return(
       <section>
@@ -111,7 +114,7 @@ export default React.createClass({
               )
             })
           }
-
+          <a className="toTop hvr-grow" onClick={this.toTop}> Menu </a>
       </section>
     </section>
 

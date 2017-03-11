@@ -35,7 +35,7 @@ export default React.createClass({
             <article id="developing" data-scroll
               className="developing">
               <h1 className="developing__page--Title"> Developing </h1>
-              <p className="developing__Text"> My skill set is based on front end development, and I'm continuing to work on those aspects of my abilities. Currently however I have begun to learn PHP and that has been a steady process. </p>
+              <p className="developing__Text"> My skill set is an ongoing process for me and I'm continuing to work on the Front End aspects of my abilities. Currently I have begun to learn PHP and that has been a steady process. Because of this, I have taken on a project to redue a website for a company in the Rio Grande Valley so I can use what I have learned and gain proficiency with PHP. </p>
               <p className="developing__Text"> Future goals are to get into mobile applications. Perhaps React Native is a route I will consider taking, or straight IOS or Android development. Either way it ought to be very interesting. </p>
             </article>
             <h2 className="developing__page--Contact"> Contact </h2>
