@@ -9,14 +9,12 @@ export default React.createClass({
         <section className="wrapper">
           <section className="leftFloat">
             <article className="sideSectionProfile">
-              <img
-                className="profileImage"
-               src="https://github.com/luciogutz/portfolio/blob/master/Photos/myPhoto.jpg?raw=true"/>
              <h2 className="myName"> Lucio </h2>
-             <h2 className="myName"> Gutierrez </h2>
+             <h2 className="myLastName"> Gutierrez </h2>
              <h3 className="jobTitle"> Front-End Developer </h3>
             </article>
-            <article className="sideSectionProfileSkills">
+            <article
+             className="sideSectionProfileSkills">
               <h3 className="subTitles"><i className="fa fa-code" aria-hidden="true"></i> Languages <i className="fa fa-code" aria-hidden="true"></i></h3>
               <p className="html"> HTML </p>
               <p className="css">  CSS </p>
@@ -32,7 +30,7 @@ export default React.createClass({
               <p className="otherSkills"> Bash </p>
               <p className="otherSkills"> Travis CI </p>
               <p className="otherSkills"> Photoshop </p>
-              <p className="otherSkills"> Photography </p>
+              <p className="otherSkills-photo"> Photography </p>
             </article>
             <article className="sideSectionProfileSkills">
               <h3 className="subTitles"><i className="fa fa-info-circle" aria-hidden="true"></i> Contact Info <i className="fa fa-info-circle" aria-hidden="true"></i></h3>
@@ -48,6 +46,7 @@ export default React.createClass({
             </article>
           </section>
           <section className="mainSection">
+              <p className="portfolio">  PORTFOLIO: https://lucio-portfolio.herokuapp.com </p>
             <h2 className="mainSubTitles"> Objective </h2>
             <p className="objective"> My objective is to be on the forefront of the tech industry when it comes the user interface design and experience. My goal is to use the most effective technologies available in coding languages to better advance my personal career, as well as enhance those I collaborate with in the industry. My purpose is to never stop growing and learning, and ultimately be a part of  something new, challenging and different. </p>
             <h2 className="mainSubTitles"> Experience </h2>
@@ -73,7 +72,6 @@ export default React.createClass({
             </div>
             </ul>
             <article className="portfolioWrapper">
-              <p className="portfolio">  PORTFOLIO: https://lucio-portfolio.herokuapp.com </p>
               <p className="referencesNote"> * References upon request * </p>
             </article>
           </section>

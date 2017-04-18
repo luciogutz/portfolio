@@ -238,7 +238,7 @@ h1 {
 .jest {
   color: rgb(255, 213, 79);
   font-size: 16px;
-  margin-bottom: 1.9%;
+  margin-bottom: 5%;
   margin-top: 2%;
 }
 
@@ -265,6 +265,7 @@ h1 {
 .contactInfoDetails {
   margin: 2%;
   color: #CFD8DC;
+  margin-bottom: 5.9%;
 }
 
 .jobTitle {
@@ -279,10 +280,20 @@ h1 {
   margin-top: 2.9%;
 }
 
+.otherSkills-photo {
+  font-size: 18px;
+  color: #CFD8DC;
+  margin-bottom: 5%;
+  margin-top: 2.9%;
+}
+
+
+
 .leftFloat {
   float: left;
   width: 30%;
   height: 100%;
+  background-color: #37474F;
 }
 
 .bash {
@@ -290,6 +301,13 @@ h1 {
 }
 
 .myName {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin: 15% auto 1% auto;
+}
+
+.myLastName {
   color: white;
   font-size: 32px;
   text-align: center;
@@ -308,7 +326,7 @@ h1 {
   color: white;
   font-size: 32;
   margin-top: 2%;
-  margin-bottom: 1%;
+  margin-bottom: 8.3%;
 }
 
 .sideSectionProfile {
@@ -323,7 +341,7 @@ h1 {
 .sideSectionProfileSkills {
   border-bottom: solid white 3px;
   padding: 3px;
-  margin-top: 0px;
+  margin-top: 18px;
   background-color: #37474F;
   text-align: center;
   width: 100%;
@@ -335,7 +353,7 @@ span {
 }
 
 .wrapper {
-  height: 863px;
+  height: 890px;
   width: 700px;
   border: solid black 1px;
   margin-right: auto;
@@ -422,7 +440,7 @@ span {
   /*display: inline-block;*/
   margin-left: 38%;
   margin-top: -1%;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 
 .referencesNote {
