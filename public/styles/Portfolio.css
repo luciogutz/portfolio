@@ -12,6 +12,66 @@ h1 {
   text-shadow: 3px 10px 10px black;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}*/
+
+
 .developing {
   background-color: rgba(1, 87, 155, 0.7);
   width: 100%;
@@ -690,6 +750,10 @@ span {
     width:  100%;
     height: 150px;
     text-align: center;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
   }
 
   .blog-Title {
@@ -1034,6 +1098,10 @@ span {
     width:  100%;
     height: 150px;
     text-align: center;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
   }
 }
 
@@ -1226,6 +1294,10 @@ span {
     width:  100%;
     height: 150px;
     text-align: center;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
   }
 }
 
@@ -1263,6 +1335,10 @@ span {
     width:  100%;
     height: 150px;
     text-align: center;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
   }
 
   .email {

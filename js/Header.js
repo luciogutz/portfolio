@@ -9,7 +9,6 @@ export default React.createClass ({
   },
   onDeveloping(){
     SmoothScroll.animateScroll( document.querySelector('#developing'), 0, { speed: 2000, easing: 'easeInOutCubic' })
-
   },
   render () {
     return (
