@@ -7,6 +7,17 @@ export default React.createClass({
     return {
       projects: [
         {
+          title: "Heavenly Splendor Ministries",
+          noLinkTitle: "",
+          text: "HTML5, CSS3, jQuery, PHP, Wordpress, FTP, CDN's",
+          video: "",
+          gitHub: "",
+          specialLinktitle: "Visit Site",
+          specialLink: "http://heavenlysplendor.org/",
+          imgText: "Screen shot of final project SignIn page",
+          imageUrl: ""
+        },
+        {
          title: "The Iron Yard Final Project-cAPPsul",
          noLinkTitle: "",
          text: "HTML5, CSS3, React.js, Firebase Database and Storage.",
