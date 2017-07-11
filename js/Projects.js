@@ -9,13 +9,13 @@ export default React.createClass({
         {
           title: "Heavenly Splendor Ministries",
           noLinkTitle: "",
-          text: "HTML5, CSS3, jQuery, PHP, Wordpress, FTP, CDN's",
+          text: "HTML5, CSS3, jQuery, PHP, Wordpress, FTP, CDN's, (Responsive design in development).",
           video: "",
           gitHub: "",
           specialLinktitle: "Visit Site",
           specialLink: "http://heavenlysplendor.org/",
           imgText: "Screen shot of final project SignIn page",
-          imageUrl: ""
+          imageUrl: "https://github.com/luciogutz/portfolio/blob/master/Photos/HS-LOGO.jpg?raw=true"
         },
         {
          title: "The Iron Yard Final Project-cAPPsul",
