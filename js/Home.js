@@ -35,8 +35,8 @@ export default React.createClass({
             <article id="developing" data-scroll
               className="developing">
               <h1 className="developing__page--Title"> Developing </h1>
-              <p className="developing__Text"> My skill set is an ongoing process for me and I'm continuing to work on the Front End aspects of my abilities. Currently I have begun to learn PHP and that has been a steady process. Because of this, I have taken on a project to redue a website for a church in the Rio Grande Valley so I can use what I have learned and gain proficiency with PHP and Wordpress. </p>
-              <p className="developing__Text"> Future goals are to get into mobile applications. Perhaps React Native is a route I will consider taking, or straight IOS or Android development. Either way it ought to be very interesting. </p>
+              <p className="developing__Text"> Just finished up a project for Heavenly Splendor Family Church. It was a complete rebuild of their Wordpress site. It was an awesome process for me and my learning curve has definitely improved. For my next project I will be creating a site that will serve as a marketing tool for myself. Being a freelancer at the moment I want to have something that potential clients can go to and understand what I can do for them. </p>
+              <p className="developing__Text"> I will be utilizing React for this project and start to expand on some of the user interactive aspects of design that I have been seeing on other sites. </p>
             </article>
             <h2 className="developing__page--Contact"> Contact </h2>
             <a href="mailto:lucio.gutierrez30@yahoo.com" className="email">lucio.gutierrez30@yahoo.com</a>
