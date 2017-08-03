@@ -9,7 +9,7 @@ export default React.createClass({
         {
           title: "Heavenly Splendor Ministries",
           noLinkTitle: "",
-          text: "HTML5, CSS3, jQuery, PHP, Wordpress, FTP, CDN's, (Responsive design in development).",
+          text: "HTML5, CSS3, jQuery, PHP, Wordpress, FTP, CDN's.",
           video: "",
           gitHub: "",
           specialLinktitle: "Visit Site",
